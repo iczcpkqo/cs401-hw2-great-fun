@@ -64,19 +64,8 @@ $$
 
 ![0.75_Polynomial_ROC__2020-12-19 16.59.35](./result_graph/0.75_Polynomial_ROC__2020-12-19 16.59.35.png)
 
-### Other Classifier
 
-> Polynomial is the best choice
 
-1. Gaussian. 
 
-I had try C=0.01 to C=1.0
 
-2. Sigmoid
 
-I had try C=0.01 to C=1.0
-
-### More want to do
-
-* improvement of accuracy.
-* I‘m trying to do it.:w

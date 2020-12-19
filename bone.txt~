@@ -1,0 +1,22 @@
+# the meaning of the code name “bone”
+
+## the meaning
+
+* The first twelve pieces of data are attributes, and the last one is the result.
+
+* Different values of the attributes are of different degrees, and by these attributes acting together, they lead to the result in the thirteenth column.
+
+## _ For example: _
+
+** In a hospital physical examination, twelve attributes based on blood pressure, heart rate, lung capacity, etc., produce the corresponding twelve data, and the final diagnosis is the data in the thirteenth column, 1 with disease and 0 without disease.  By learning a large amount of data, it is possible to predict the probability of disease occurrence from the medical examination results. ** 
+
+TP: correctly predicted that I had the disease and survived due to timely treatment.
+
+TN: correctly predicted that I was not sick, and I was very happy.
+
+FP: My disease was not predicted and I did not go to the hospital until it was very serious and I died as a result.
+
+FN: I was not sick, but I was told that I was sick, so I wasted a lot of money.
+
+
+Translated with www.DeepL.com/Translator (free version)

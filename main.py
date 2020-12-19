@@ -11,11 +11,14 @@ import joblib
 import numba as nb
 import sys
 
-TRAIN_DATA = "./train_data/"
-RESULT_DATA_PATH = "./result_data/"
-RESULT_REPORT_PATH = "./result_report/"
-RESULT_GRAPH_PATH = "./result_graph/"
-MODEL_PATH = "./trained_model/"
+# MYPATH = './drive/MyDrive/codedomain/workspace/modules/cs401_machine-learning_neural-networks/homework/hw2/cs401-hw2-great-fun'
+MYPATH = '.'
+
+TRAIN_DATA = MYPATH + "/train_data/"
+RESULT_DATA_PATH = MYPATH + "/result_data/"
+RESULT_REPORT_PATH = MYPATH + "/result_report/"
+RESULT_GRAPH_PATH = MYPATH + "/result_graph/"
+MODEL_PATH = MYPATH + "/trained_model/"
 PRESENT_TIME = str(time.strftime("%Y-%m-%d %H.%M.%S", time.localtime(time.time())))
 
 
@@ -33,8 +36,8 @@ def run():
             'pause_time': 0.00,
             'kernel': 'Polynomial',
             'model_name': '0.5_SV_Sigmoid__2020-12-18 05.29.13.m',
-            'train_data': 'train-io.txt',
-            'test_data': 'test-in.txt',
+            'train_data': 'train-io-tiny.txt',
+            'test_data': 'test-in-tiny.txt',
             'train_col': ['D-1', 'D-2', 'D-3', 'D-4', 'D-5', 'D-6', 'D-7', 'D-8', 'D-9', 'D-10', 'D-11', 'D-12', 'class'],
             'test_col': ['D-1', 'D-2', 'D-3', 'D-4', 'D-5', 'D-6', 'D-7', 'D-8', 'D-9', 'D-10', 'D-11', 'D-12']}
 
@@ -340,6 +343,33 @@ def draw_roc(c, kernel, y_test, y_test_probability, is_train, model_name):
     # 获得真假率
     fpr, tpr, threshold = roc_curve(y_test, y_test_probability)
 
+    # 绘图数据
+    ## y_test
+    file = open(RESULT_GRAPH_PATH + str(c) + '_' + kernel + "_y_test__" + PRESENT_TIME + '.txt', 'w')
+    file.write(str(y_test))
+    file.close()
+
+    ## y_probability
+    file = open(RESULT_GRAPH_PATH + str(c) + '_' + kernel + "_y_probability" + PRESENT_TIME + '.txt', 'w')
+    file.write(str(y_test_probability))
+    file.close()
+
+    ## threshold
+    file = open(RESULT_GRAPH_PATH + str(c) + '_' + kernel + "_threshold_" + PRESENT_TIME + '.txt', 'w')
+    file.write(str(threshold))
+    file.close()
+
+    ## fpr
+    file = open(RESULT_GRAPH_PATH + str(c) + '_' + kernel + "_fpr_" + PRESENT_TIME + '.txt', 'w')
+    file.write(str(fpr))
+    file.close()
+
+    ## tpr
+    file = open(RESULT_GRAPH_PATH + str(c) + '_' + kernel + "_tpr_" + PRESENT_TIME + '.txt', 'w')
+    file.write(str(tpr))
+    file.close()
+
+
     # 绘制
     plt.ion()  # 开启interactive mode 成功的关键函数
 
@@ -352,7 +382,7 @@ def draw_roc(c, kernel, y_test, y_test_probability, is_train, model_name):
 
     # average time of each eat
     plt.subplot(1, 1, 1)
-    plt.title("avg arrive time")
+    plt.title("ROC")
     plt.xlabel('False Positive Rate')
     plt.ylabel('True Positive Rate')
     plt.grid(True)
