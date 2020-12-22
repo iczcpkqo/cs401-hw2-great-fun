@@ -53,12 +53,12 @@ def run():
     elif not is_train:
         y_test, y_test_probability, y_pred, test_pred = run_model(args)
 
-    # 绘制ROC
+    # Plotting ROC
     # draw_roc(args, y_test=y_test, y_test_probability=y_test_probability)
     print('start draw graph')
     show_graph(args, y_test=y_test, y_test_probability=y_test_probability)
 
-    # 保存数据
+    # Save data
     print('save data')
     save_data(args, y_test=y_test, y_pred=y_pred, test_pred=test_pred)
 
@@ -85,7 +85,7 @@ def run_train(args):
     kernel = args['kernel']
     proba = args['is_probability']
 
-    # 数据
+    # Data
     ## data
     url = TRAIN_DATA + tr_da
     pre_url = TRAIN_DATA + te_da
@@ -99,23 +99,23 @@ def run_train(args):
     train_data = pd.read_csv(url, names=colnames, sep=' ')
     pre_data = pd.read_csv(pre_url, names=pre_colnames, sep=' ')
 
-    # 预处理
+    # Pre-processing
     print('drop data column')
     X = train_data.drop(tr_co[-1], axis=1)
     y = train_data[tr_co[-1]]
 
-    # 分离数据
+    # Separate data
     print('split data')
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=te_si)
 
-    # 选分类器
-    ## 高斯
+    # Select classifier
+    ## Gauss
     print('select kernel')
     if kernel == 'Gaussian':
         print(kernel)
         svclassifier = SVC(kernel='rbf', probability=proba, C=c)
 
-    ## 多项式
+    ## Polynomial
     if kernel == 'Polynomial':
         print(kernel)
         svclassifier = SVC(kernel='poly', probability=proba, degree=8, C=c)
@@ -126,27 +126,27 @@ def run_train(args):
         print(kernel)
         svclassifier = SVC(kernel='sigmoid', probability=proba, C=c)
 
-    # 训练
+    # Training
     print('fit train data')
     svclassifier.fit(X_train, y_train)
 
-    # 保存模型
+    # Save model
     print('save model')
     joblib.dump(svclassifier, MODEL_PATH + str(c) + '_SV_' + kernel + '__' + PRESENT_TIME + '.m')
 
-    # 绘制ROC
-    ## 获得得分
+    # Plotting ROC
+    ## Score obtained
     print('get probability')
     y_test_probability = svclassifier.decision_function(X_test)
     # print(y_test_probability)
 
-    ## 获得真假率
+    ## Obtain true/false rate
     # fpr, tpr, threshold = roc_curve(y_test, y_test_probability)
     # print(fpr)
     # print(tpr)
     # print(threshold)
 
-    # 预测评估
+    # Predictive Assessment
     print('predict y_pred')
     y_pred = svclassifier.predict(X_test)
     print('predict test_pred')
@@ -197,7 +197,7 @@ def run_model(args):
     proba = args['is_probability']
     model_name = args['model_name']
 
-    # 数据
+    # Data
     ## data
     url = TRAIN_DATA + tr_da
     pre_url = TRAIN_DATA + te_da
@@ -211,34 +211,34 @@ def run_model(args):
     train_data = pd.read_csv(url, names=colnames, sep=' ')
     pre_data = pd.read_csv(pre_url, names=pre_colnames, sep=' ')
 
-    # 预处理
+    # Pre-processing
     print('drop data column')
     X = train_data.drop(tr_co[-1], axis=1)
     y = train_data[tr_co[-1]]
 
-    # 分离数据
+    # Separate data
     print('split data')
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=te_si)
 
-    # 调用模型
+    # Calling the model
     print('start joblib')
     svclassifier = joblib.load(MODEL_PATH + model_name)
 
-    # 绘制ROC
-    ## 获得得分
+    # Plotting ROC
+    ## Score obtained
     y_test_probability = None
     if is_roc:
         print('take probability')
         y_test_probability = svclassifier.decision_function(X_test)
     # print(y_test_probability)
 
-    ## 获得真假率
+    ## Obtain true/false rate
     # fpr, tpr, threshold = roc_curve(y_test, y_test_probability)
     # print(fpr)
     # print(tpr)
     # print(threshold)
 
-    # 预测
+    # Projections
     print('predict y_pred & test_pred')
     y_pred = svclassifier.predict(X_test)
     print('predict test_pred')
@@ -278,7 +278,7 @@ def run_model(args):
     return y_test, y_test_probability, y_pred, test_pred
 
 
-# 输出文件
+# Output files
 def save_data(args, **kwargs):
     c = args['C']
     kernel = args['kernel']
@@ -298,7 +298,7 @@ def save_data(args, **kwargs):
 
 
 
-# 保存验证数据产生的报告，反应模型情况
+# Save reports generated from validation data to reflect model conditions
 def write_report(c, kernel, y_test, y_pred, is_train, model_name):
 
     if is_train:
@@ -313,12 +313,13 @@ def write_report(c, kernel, y_test, y_pred, is_train, model_name):
     file.write(str(y_pred))
     file.close()
 
-# 保存测试数据分类结果
+# Save test data classification results
 def write_pred(c, kernel, test_pred, is_train, model_name):
-
     if is_train:
+        # file = open(RESULT_DATA_PATH + str(c) + '_' + kernel + '_Out__' + PRESENT_TIME + '.txt', 'w')
         file = open(RESULT_DATA_PATH + 'test-out.txt', 'w')
     else:
+        # file = open(RESULT_DATA_PATH + '[' + model_name + ']_Out__' + PRESENT_TIME + '.txt', 'w')
         file = open(RESULT_DATA_PATH + 'test-out.txt', 'w')
 
     file.write(str(test_pred))
@@ -337,13 +338,13 @@ def show_graph(args, **kwargs):
     if is_roc:
         draw_roc(c, kernel, y_te, y_t_pr, is_train, model_name)
 
-# 绘图, ROC
+# Drawing, ROC
 def draw_roc(c, kernel, y_test, y_test_probability, is_train, model_name):
 
-    # 获得真假率
+    # Obtain true/false rate
     fpr, tpr, threshold = roc_curve(y_test, y_test_probability)
 
-    # 绘图数据
+    # Mapping data
     ## y_test
     file = open(RESULT_GRAPH_PATH + str(c) + '_' + kernel + "_y_test__" + PRESENT_TIME + '.txt', 'w')
     file.write(str(y_test))
@@ -370,8 +371,8 @@ def draw_roc(c, kernel, y_test, y_test_probability, is_train, model_name):
     file.close()
 
 
-    # 绘制
-    plt.ion()  # 开启interactive mode 成功的关键函数
+    # Drawing
+    plt.ion()  # The key function for the success of enabling interactive mode
 
     if is_train:
         fig_name = RESULT_GRAPH_PATH + str(c) + '_' + kernel + "_ROC__" + PRESENT_TIME + '.png'
