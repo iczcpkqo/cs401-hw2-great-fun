@@ -328,13 +328,13 @@ def write_report(c, kernel, y_test, y_pred, is_train, model_name):
 # Save test data classification results
 def write_pred(c, kernel, test_pred, is_train, model_name):
     if is_train:
-        file = open(RESULT_DATA_PATH + str(c) + '_' + kernel + '_Out__' + PRESENT_TIME + '.txt', 'w')
+        # file = open(RESULT_DATA_PATH + str(c) + '_' + kernel + '_Out__' + PRESENT_TIME + '.txt', 'w')
         # file = open(RESULT_DATA_PATH + 'test-out.txt', 'w')
-        # file = open('test-out.txt', 'w')
+        file = open('test-out.txt', 'w')
     else:
-        file = open(RESULT_DATA_PATH + '[' + model_name + ']_Out__' + PRESENT_TIME + '.txt', 'w')
+        # file = open(RESULT_DATA_PATH + '[' + model_name + ']_Out__' + PRESENT_TIME + '.txt', 'w')
         # file = open(RESULT_DATA_PATH + 'test-out.txt', 'w')
-        # file = open('test-out.txt', 'w')
+        file = open('test-out.txt', 'w')
 
     file.write(str(test_pred))
     file.close()
