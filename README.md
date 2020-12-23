@@ -28,6 +28,12 @@ https://gitlab.cs.nuim.ie/u210251/cs401-hw2-great-fun
 2. Gaussian
 3. Polynomial
 
+### Try to get better results by modifying some parameters
+
+1. C
+2. gama
+3. coef0
+
 ### Get Confusion Matrix
 
 One of the Matrix: (From Test_Set which is 20%*Train_Set)
