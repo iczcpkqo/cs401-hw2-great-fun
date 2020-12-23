@@ -39,8 +39,8 @@ def run():
             'pause_time': 0.00,
             'kernel': 'Gaussian',
             'model_name': '0.5_SV_Sigmoid__2020-12-18 05.29.13.m',
-            'train_data': 'train-io.txt',
-            'test_data': 'test-in.txt',
+            'train_data': 'train-io-mini.txt',
+            'test_data': 'test-in-mini.txt',
             'train_col': ['D-1', 'D-2', 'D-3', 'D-4', 'D-5', 'D-6', 'D-7', 'D-8', 'D-9', 'D-10', 'D-11', 'D-12', 'class'],
             'test_col': ['D-1', 'D-2', 'D-3', 'D-4', 'D-5', 'D-6', 'D-7', 'D-8', 'D-9', 'D-10', 'D-11', 'D-12']}
 
@@ -329,10 +329,12 @@ def write_report(c, kernel, y_test, y_pred, is_train, model_name):
 def write_pred(c, kernel, test_pred, is_train, model_name):
     if is_train:
         # file = open(RESULT_DATA_PATH + str(c) + '_' + kernel + '_Out__' + PRESENT_TIME + '.txt', 'w')
-        file = open(RESULT_DATA_PATH + 'test-out.txt', 'w')
+        # file = open(RESULT_DATA_PATH + 'test-out.txt', 'w')
+        file = open('test-out.txt', 'w')
     else:
         # file = open(RESULT_DATA_PATH + '[' + model_name + ']_Out__' + PRESENT_TIME + '.txt', 'w')
-        file = open(RESULT_DATA_PATH + 'test-out.txt', 'w')
+        # file = open(RESULT_DATA_PATH + 'test-out.txt', 'w')
+        file = open('test-out.txt', 'w')
 
     file.write(str(test_pred))
     file.close()
