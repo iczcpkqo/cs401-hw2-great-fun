@@ -7,6 +7,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.metrics import roc_curve, auc
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 import joblib
 import numba as nb
 import sys
@@ -31,13 +32,15 @@ def run():
             'is_probability': True,
             'is_graph_roc': True,
             'is_graph_auc': False,
-            'C': 0.75,
+            'C': 0.25,
+            'gama': 0.1,
+            'coef0': 0.5,
             'test_size': 0.2,
             'pause_time': 0.00,
-            'kernel': 'Polynomial',
+            'kernel': 'Gaussian',
             'model_name': '0.5_SV_Sigmoid__2020-12-18 05.29.13.m',
-            'train_data': 'train-io-tiny.txt',
-            'test_data': 'test-in-tiny.txt',
+            'train_data': 'train-io.txt',
+            'test_data': 'test-in.txt',
             'train_col': ['D-1', 'D-2', 'D-3', 'D-4', 'D-5', 'D-6', 'D-7', 'D-8', 'D-9', 'D-10', 'D-11', 'D-12', 'class'],
             'test_col': ['D-1', 'D-2', 'D-3', 'D-4', 'D-5', 'D-6', 'D-7', 'D-8', 'D-9', 'D-10', 'D-11', 'D-12']}
 
@@ -77,6 +80,8 @@ def run():
 
 def run_train(args):
     c = args['C']
+    gama = args['gama']
+    coef0 = args['coef0']
     te_co = args['test_col']
     te_da = args['test_data']
     te_si = args['test_size']
@@ -99,26 +104,33 @@ def run_train(args):
     train_data = pd.read_csv(url, names=colnames, sep=' ')
     pre_data = pd.read_csv(pre_url, names=pre_colnames, sep=' ')
 
+    # train_data = StandardScaler.fit_transform(train_data)
+    sc_x = StandardScaler()
+    # train_data = sc_x.fit_transform(train_data)
+
     # Pre-processing
     print('drop data column')
     X = train_data.drop(tr_co[-1], axis=1)
     y = train_data[tr_co[-1]]
 
+    # Process the data that are too special
+    X = sc_x.fit_transform(X)
+
     # Separate data
     print('split data')
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=te_si)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=te_si, random_state=520)
 
     # Select classifier
     ## Gauss
     print('select kernel')
     if kernel == 'Gaussian':
         print(kernel)
-        svclassifier = SVC(kernel='rbf', probability=proba, C=c)
+        svclassifier = SVC(kernel='rbf', probability=proba, C=c, gamma=gama)
 
     ## Polynomial
     if kernel == 'Polynomial':
         print(kernel)
-        svclassifier = SVC(kernel='poly', probability=proba, degree=8, C=c)
+        svclassifier = SVC(kernel='poly', probability=proba, degree=8, C=c, gamma='auto', coef0=coef0)
         svclassifier.fit(X_train, y_train)
 
     ## sigmoid
