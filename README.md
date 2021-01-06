@@ -83,4 +83,10 @@ I had try C=0.01 to C=1.0
 ### More want to do
 
 * improvement of accuracy.
-* I‘m trying to do it.:w
+* I‘m trying to do it 
+
+## My Speculate
+
+* Since the accuracy of this model is over 50%, the overall accuracy should be much higher if multiple predictions are made (e.g., 100 times) and the result with the most occurrences is taken as the final result.
+
+* May be ensemble learning is better.
