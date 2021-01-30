@@ -1,0 +1,22 @@
+Source:
+	Pascoe, J. A. (2018, Jan. 29th), Using AI to Uncover the Mystery of Voynich Manuscript, https://phys.org/news/2018-01-ai-uncover-mystery-voynich-manuscript.html
+
+	Daley, J. (2018, Jan. 31st), Artificial Intelligence Takes a Crack at Decoding the Mysterious Voynich Manuscript, https://www.smithsonianmag.com/smart-news/artificial-intelligence-takes-crack-mysterious-voynich-manuscript-180967983/
+
+Agent:
+	The task was undertaken by professor Greg Kondrak and graduate student Bradley Hauer
+
+Goal:
+	Their task was to decode the decipher Voynich Manuscript as a case study. They used an AI to uncover its original language. This had been trained to recognise 380 languages with an accuracy of 97 percent.
+
+Data:
+	The input for the AI was the 240 pages, and latter the first line after ‘letters [were] shuffled and vowels dropped’.
+
+Method:
+	The initial to decipher the manuscript, they had to determine the language the scroll was written in. To do this the developed an AI which reads text and predicts the language. The AI makes this prediction by comparing the text to three hundred and eighty language samples. After their hypothesis of the scroll being an alphagram, they shuffled the letters and dropped vowels before passing it in as input.
+
+Result:
+	What they discovered by doing this is that the most accurate language was Hebrew at 80%. This disproved the initial hypothesis of the manuscript being in Arabic.
+
+
+	4Seeing as how these were all based on hypothesis’, I’m cautious to regard this as entirely the work of artificial intelligence.

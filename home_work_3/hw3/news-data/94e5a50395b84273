@@ -1,0 +1,27 @@
+﻿SOURCE
+
+Fortune "AI Is Now YouTube's Biggest Weapon Against the Spread of Offensive Videos" http://fortune.com/2018/04/24/youtube-machine-learning-content-removal/
+
+AGENT
+
+YouTube
+
+GOAL
+
+To quickly remove or hide videos with questionable content from the YouTube website.
+
+DATA
+
+A large array of videos on the website, comparing videos that have been approved by human moderators against those that were removed. Metadata from the video file itself, user-inputted tags and descriptions.
+
+METHODS
+
+Not stated in the article. Most likely compares videos against examples of questionable content. The article states that YouTube has hired experts who deal with the subject matter of the banned videos content, which can help identify key triggers for the algorithm to look into when comparing correct vs incorrect videos.
+
+RESULTS
+
+In Early 2017, YouTube has removed 8 percent of violent extremist content before it gets 10 views. After starting working with machine learning, this figure has been increased to over 50 percent by the middle of 2017. The algorithm flagged more than 83 percent of 8 million banned videos in the last quarter of 2017 with the remaining amount being flagged by humans.
+
+COMMENTS
+
+This article highlights how important machine learning is in the world of big data. According to Business Insider, in 2017 over 400 hours of video was being uploaded every minute to YouTube. Scanning through this data with humans is near impossible.

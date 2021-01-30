@@ -1,0 +1,39 @@
+字段,主题,词,概率
+GOAL_clean,0,images new world neural create reduce generate models mars accuracy ,"[0.03096346 0.02492707 0.02150598 0.02035125 0.01639763 0.01589683
+ 0.01503389 0.01427163 0.01409575 0.0140235 ]"
+GOAL_clean,1, predict data able using play facial model languages learning ,"[0.08031794 0.02315483 0.01771783 0.01562475 0.01518587 0.01403804
+ 0.01356229 0.01335578 0.01190853 0.0117909 ]"
+GOAL_clean,2,go ai create beat time learning identify machine using use ,"[0.02527962 0.02447122 0.02097598 0.01921755 0.01866032 0.01697456
+ 0.01558114 0.01547762 0.01448362 0.01387748]"
+DATA_clean,0, past face multiple taken real people training data us ,"[0.14556102 0.0208647  0.01935749 0.01881738 0.01821247 0.01729008
+ 0.01652912 0.01617294 0.01504312 0.01439881]"
+DATA_clean,1,database images various dataset game data used system input image ,"[0.0254241  0.02504194 0.02375632 0.0231356  0.02037323 0.01933415
+ 0.01819998 0.01480027 0.01364493 0.01334439]"
+DATA_clean,2,data zinc patients different eye language million facebook use molecules ,"[0.01927871 0.01589459 0.01459376 0.01457588 0.01294051 0.01266231
+ 0.01159698 0.01142833 0.01132343 0.01111748]"
+METHODS_clean,0,used learning data machine model techniques train network algorithm trained ,"[0.02008655 0.017401   0.01707466 0.01680735 0.01666605 0.01189507
+ 0.01154744 0.01094715 0.01088685 0.01053036]"
+METHODS_clean,1, artificial different monte carlo regression tree computer vision move ,"[0.15867615 0.03044944 0.02476405 0.02039286 0.02039276 0.02033355
+ 0.01371403 0.013443   0.01298254 0.01238912]"
+METHODS_clean,2,supervised learning unsupervised deep machine classification mentioned algorithm generative brain ,"[0.18937251 0.10598028 0.07018452 0.05466839 0.0401324  0.03288752
+ 0.02501926 0.01915797 0.01688004 0.01624085]"
+METHODS_clean,3,network neural processing natural language deep convolutional models image facial ,"[0.03265617 0.03244294 0.02328829 0.02106031 0.01945928 0.01714379
+ 0.0166487  0.01585218 0.01564047 0.01548929]"
+RESULTS_clean,0,language go alphago capable faster improvement world improved overall beat ,"[0.03071671 0.02531831 0.02477297 0.024403   0.0227645  0.02276374
+ 0.02044273 0.01853273 0.01797123 0.01792176]"
+RESULTS_clean,1,new accuracy system model people identified results images first could ,"[0.0183145  0.01396193 0.01347055 0.01241028 0.01136741 0.01100568
+ 0.010863   0.01026525 0.0102185  0.01015461]"
+RESULTS_clean,2,percent accuracy results human able machine learning within predict rate ,"[0.02663875 0.02131246 0.0187363  0.01730662 0.01632245 0.01488174
+ 0.01457693 0.01450766 0.01370382 0.0135883 ]"
+ISSUES_clean,0,n team algorithm training data public issues issue question machine ,"[0.02659919 0.01847828 0.01781942 0.01721123 0.01648078 0.01359623
+ 0.01289144 0.01250407 0.01156859 0.01136686]"
+ISSUES_clean,1,could model time use many however problems accurate also result ,"[0.02159369 0.01839772 0.01801376 0.01610901 0.01605825 0.01483122
+ 0.01417834 0.01303694 0.01211409 0.01134608]"
+ISSUES_clean,2,issues person work images see problem good would ethical think ,"[0.08233777 0.02521665 0.02209496 0.02209034 0.02114818 0.01808665
+ 0.0175207  0.0169217  0.01594624 0.01564733]"
+COMMENTS_clean,0,always field good tool languages human customer learning methods could ,"[0.01694115 0.01280417 0.01220401 0.01093853 0.01021827 0.00954536
+ 0.00942833 0.00940021 0.00864409 0.00835655]"
+COMMENTS_clean,1, n learning future ai data system machine like useful ,"[0.0729674  0.01639381 0.01124387 0.00936667 0.00915897 0.00863142
+ 0.00825186 0.00815941 0.0081498  0.00810864]"
+COMMENTS_clean,2,interesting study could specific possible quite area see information think ,"[0.0113447  0.00985711 0.00961105 0.00941984 0.00923713 0.0090795
+ 0.00904936 0.00886528 0.0087275  0.0081525 ]"

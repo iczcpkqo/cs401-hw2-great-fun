@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.tomshardware.com/news/amd-xilinx-machine-learning-inference-record,37885.html
+
+AGENT
+
+AMD and Xilinx
+
+GOAL
+
+To create high-performance inference systems for data centers.
+
+DATA
+
+Various.
+
+METHODS
+
+The data centers that includes a 32-core EPYC 7551 CPU and eight Alveo U250 accelerator cards. The cards will be powered by Xilinx’s ML Suite, which also supports ML software frameworks, such as TensorFlow. Xilinx also introduced two new FPGA cards (Alveo U200 and U250), which for the first time are optimized to “accelerate” real-time machine learning inference.
+
+RESULTS
+
+Breaking of the world record for inference performance.
+
+COMMENTS
+
+N/A.

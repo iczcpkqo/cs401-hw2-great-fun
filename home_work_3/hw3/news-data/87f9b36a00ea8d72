@@ -1,0 +1,7 @@
+SOURCEhttps://medium.com/airbnb-engineering/categorizing-listing-photos-at-airbnb-f9483f3ab7e3
+AGENTAirbnb
+GOALTo automatically categorize rooms based off of images on Airbnb
+DATAImages of rooms taken from Airbnb
+METHODSRetraining the ResNet50 model which uses computer vision to identify what an image is. This involved many different learning techniques such as transfer learning and unsupervised learning. Originally the ResNet50 model could already tell if the image was indoors or outdoors, but needed to be trained in object detection. The Tensorflow object detection api was used to assist in looking at objects in a room to identify what they were – and to categorize the room overall. Using knowledge on what is commonly in each room, rooms can be categorized from their objects.
+REULTSAn easier way for Airbnb users to list their houses amenities and rooms based off of photos, and for other users to see what amenities and rooms the listing they are viewing contains.
+COMMENTSAirbnb show how machine learning can be used to make a service more efficient and accessible to all, using previously created models to develop an application for their service. 

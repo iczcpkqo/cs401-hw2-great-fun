@@ -1,0 +1,27 @@
+SOURCE
+
+https://pdfs.semanticscholar.org/8e49/9c94171933fb71cc41203d703bba55b78fbf.pdf
+
+AGENT
+
+Microsoft
+
+GOAL
+
+The Goal of this project was to allow voice recognition systems such as Cortana to use machine learning to imitate human interaction. Eventually, the app will learn to understand the nuances and semantics of our language.  
+
+DATA
+
+To train their models, Microsoft extracted hundreds of thousands of anonymized Cortana query log entries through a Microsoft proprietary internal data warehouse. Each log entry corresponds to a user query, along with relevant information like time, location, duration, as well as telemetry information indicating how the user interacted with the Cortana responses and the overall status of the query. The main types of query logs focused on were General Search (Queries which Cortana redirects to Bing search), Command and Control (Queries where the user is trying to execute a task using voice command, such as adding an appointment to the calendar, or sending a text message) and Enriched Search (Queries where Cortana can provide enriched responses, such as weather conditions, current traffic, telling a joke and etc).
+
+METHODS
+
+They analyse the data from millions of user queries and build a machine learning system capable of classifying user queries into two classes; a class of queries that are addressable by Cortana with high user satisfaction, and a class of queries that are not. They then use unsupervised learning to cluster similar queries and assign them to human assistants who can complement Cortana functionality.
+
+RESULTS
+
+An example of this working is Cortana can react to certain phrases under almost any condition using probability distributions. By selecting appropriate speech segments from a recorded database, the software can then choose responses that closely resemble real-life conversation.
+
+COMMENTS
+
+Even though the research done in this paper did not have favourable results, they show signs of improvement for future research projects

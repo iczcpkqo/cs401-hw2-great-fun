@@ -1,0 +1,13 @@
+Source: https://towardsdatascience.com/using-deep-learning-to-improve-fifa-18-graphics-529ec44ea37e
+
+Agent: Chintan Trivedi
+
+Goal: Use deep learning to improve the facial graphics in the game FIFA 18
+
+Data: data is gathered by recording in game footage and a load of images from Google of the players.
+
+Method: Using different model architechture and different deep learning algorithms.
+
+Results: There is a clear inprovement in the faces of the players that are used. It is even possble to self insert your own face into the game.
+
+Comments: As the author mentions that he himself has little graphical experiance I wonder along with him why it isn't feasable for game developers to use a deep learning method to improve at the very least facial graphics in games if not the entire graphical world.

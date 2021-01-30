@@ -1,0 +1,27 @@
+SOURCE 
+
+https://towardsdatascience.com/going-dutch-how-i-used-data-science-and-machine-learning-to-find-an-apartment-in-amsterdam-part-def30d6799e4
+
+AGENT 
+
+Rafael Pierre
+
+GOAL 
+
+Attempt to use openly available data of rent prices and apartments within Amsterdam to be able to find a “perfect” place to live, especially in an area where the prices fluctuate vastly.
+
+DATA 
+
+Data was collected from various rental websites, using the latest rental prices, locations and room sizes.
+
+METHODS 
+
+They used Predictive Analysis, which allows the end user to predict the rental prices, and allows to visualize how much value the rental price for a particular apartment gives.
+
+RESULTS 
+
+With enough testing, the agent was able to create a visual representation of where the best value for the rent price was able to be found in various districts within Amsterdam.
+
+COMMENTS 
+
+This is very relevant in cities, where rent prices are not only volatile, they can range from cheap to very expensive, even if the rent space is small. This would be very useful in a usage case such as Dublin where not only the rent price delta is large, there is a huge pool of people for a small rental pool.

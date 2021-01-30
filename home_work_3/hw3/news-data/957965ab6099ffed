@@ -1,0 +1,27 @@
+SOURCE
+
+Stanford University https://www.sciencedaily.com/releases/2018/10/181001171210.htm
+
+AGENT
+
+Stanford University
+
+GOAL
+
+Finding a more cost-effective system for environmental regulators and to predict failing regulators.
+
+DATA
+
+Past inspections from different facilities.
+
+METHODS
+
+From the data, they created prediction models on facility characteristics.
+
+RESULTS
+
+As a result, it produced a risk factor or score on how likely a facility will fail the inspection.
+
+COMMENTS
+
+Although the idea seems great, it does go on to show that there is a flaw within the system. I am not sure how likely it will go onto production how damaging the flaw is to the system.

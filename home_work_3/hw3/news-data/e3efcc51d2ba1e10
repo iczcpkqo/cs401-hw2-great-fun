@@ -1,0 +1,31 @@
+SOURCE
+
+https://litmus.com/blog/google-smart-reply-how-it-works
+https://www.dailyherald.com/business/20170527/how-gmail-apps-new-smart-reply-feature-works
+
+AGENT
+
+- Greg Corrado
+- Balint Miklos
+
+GOAL
+
+The team for the Smart Reply Function (Gmail) at Google wanted to suggest or predict phrases to use when replying to an email you just received in your inbox. It works like predictive text for all emails in your inbox. 
+
+DATA
+
+The data used to predict responses is the incoming email itself. From this, the algorithm learns by itself through the second network. It also accumulates data on your email writing style. For instance, if you prefer saying 'Thank you' instead of 'Thanks', then the machine learning algorithm will implement this as a feature. 
+
+METHODS
+
+The system works by connecting a pair of recurrent neural networks, one used to encode an incoming email, while the other would be used to predict responses. The encoding network takes in the words of the incoming email, and produces a vector. The vector retains the intent of the sentence while not giving full regard to the diction. The second vector works off this original vector and synthesizes a grammatically correct response. The operation of each network is entirely learned. This is done by training the model to predict likely responses. The question arises as to how to write a response that is longer than a sentence long. The team at Google decided to use a variant of a long-term-short-term memory network. This way, they could preserve long-term dependencies and focus only on the part of the email that is most relevant for predicting a response. 
+
+RESULTS
+
+The results found indicated that the function was a great success for Google but is still quite new. It was released in 2015 and in 2016, 10% of users' emails were sent using the tool. It proves that predictive text is getting so strong, that it now understands context within emails. 
+
+COMMENTS
+
+It is debated whether or not this smart reply function has more benefits than it does downfalls. In an area such as customer service and sales, an area primarily maintained by humans, it is hard to imagine how a customer would enjoy the service provided by a machine. 
+
+

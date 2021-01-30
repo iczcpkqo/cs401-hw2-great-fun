@@ -1,0 +1,22 @@
+##4. Volvo  
+
+SOURCE
+https://www.bernardmarr.com/default.asp?contentID=692
+
+AGENT
+Computers at Volvo which is sent data from the cars.
+
+GOAL
+Predict when a car part might malfunction or break, and predict when a service is next due.
+
+DATA
+Information collected from the cars as they are being used.
+
+METHODS
+Machine learning
+
+RESULTS
+This has already been used to allow cars to detect driving conditions and allows Volvo to uphold a very high safety standard.
+
+COMMENTS
+This will add greatly to customer trust in the brand and customer satisfaction levels.

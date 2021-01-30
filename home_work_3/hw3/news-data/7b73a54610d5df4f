@@ -1,0 +1,16 @@
+SOURCE
+Automated Process Monitoring in 3D Printing Using Supervised Machine Learning
+https://www.sciencedirect.com/science/article/pii/S2351978918307820
+AGENT
+Ugandhar Delli, Shing Chang
+Department of Industrial and Manufacturing Systems Engineering
+GOAL
+To classify each material into two categories, good category or defective category.
+DATA
+Looking at the quality of the material.
+METHODS
+Using supervised learning method, support vector machine SVM.
+RESULTS
+Successfully determines whether the material was good or defective and also capable of detecting of completion failure defects.
+COMMENTS
+

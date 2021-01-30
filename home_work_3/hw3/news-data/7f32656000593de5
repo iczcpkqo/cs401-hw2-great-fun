@@ -1,0 +1,25 @@
+SOURCE
+
+Deep Visual-Semantic Alignments for Generating Image Descriptions https://arxiv.org/pdf/1412.2306.pdf
+
+AGENT
+
+Andrej Karpathy Et al.
+
+GOAL
+
+To build a model that generates natural language descriptions of images and their regions.
+
+DATA
+
+Images dataset with descriptions of each image. 
+
+METHODS
+
+Training separate Recurrent Neural Networks to first separate objects from descriptions and then to apply those objects to the images. 
+
+RESULTS
+
+The results  showed that this model provides state of the art performance on image-sentence ranking experiments. Second, they described a Multimodal Recurrent Neural Network architecture that generates descriptions of visual data. Results showed that it outperforms other retrieval baselines. 
+
+COMMENTS

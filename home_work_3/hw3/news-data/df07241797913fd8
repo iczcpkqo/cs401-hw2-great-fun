@@ -1,0 +1,27 @@
+SOURCE
+
+https://eng.uber.com/michelangelo/
+
+AGENT
+
+Uber
+
+GOAL
+
+Goal of Michelangelo: enables internal teams to seamlessly build, deploy, and operate machine learning solutions at Uber’s scale. It is designed to cover the end-to-end ML workflow: manage data, train, evaluate, and deploy models, make predictions, and monitor predictions. The system also supports traditional ML models, time series forecasting, and deep learning.
+
+DATA
+
+Uber currently support offline, large-scale distributed training of decision trees, linear and logistic models, unsupervised models (k-means), time series models, and deep neural networks. They regularly add new algorithms in response to customer need and as they are developed by Uber’s AI Labs and other internal researchers. In addition, they let customer teams add their own model types by providing custom training, evaluation, and serving code. The distributed model training system scales up to handle billions of samples and down to small datasets for quick iterations.
+
+METHODS
+
+Models are often trained as part of a methodical exploration process to identify the set of features, algorithms, and hyper-parameters that create the best model for their problem. Before arriving at the ideal model for a given use case, it is not uncommon to train hundreds of models that do not make the cut. Though not ultimately used in production, the performance of these models guides engineers towards the model configuration that results in the best model performance. Keeping track of these trained models (e.g. who trained them and when, on what data set, with which hyper-parameters, etc.), evaluating them, and comparing them to each other are typically big challenges when dealing with so many models and present opportunities for the platform to add a lot of value.
+
+RESULTS
+
+Due to the success of the platform, in the coming months, they plan to continue scaling and hardening the existing system to support both the growth of their set of customer teams and Uber’s business overall. As the platform layers mature, they plan to invest in higher level tools and services to drive democratization of machine learning and better support the needs of their business.
+
+COMMENTS
+
+This project will surely pave the way for future machine learning projects. The platform provides many things that are needed when working on machine learning projects, and wraps it in a slick UI.

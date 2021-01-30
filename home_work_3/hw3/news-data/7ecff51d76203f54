@@ -1,0 +1,27 @@
+SOURCE
+
+Fake News Detection using Machine Learning based Stance Detection - https://www.youtube.com/watch?v=j0n-0-3XhWc
+
+AGENT
+
+Fake Bananas
+
+GOAL
+
+To detect fake news
+
+DATA
+
+Article of news and claims(if any about the news)
+
+METHODS
+
+Stance Detection
+
+RESULTS
+
+It gives out any of the 4 results - Agree, Disagree, Discuss and Unrelated
+
+COMMENTS
+
+Relevant keywords are extracted from the article and matched with the claims. This is a good approach but if no references are found then an actual news will have end result as Disagree. As mentioned in the video, the success rate is 82% which is better and it also gives out the different sources used by it as references(claims).

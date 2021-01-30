@@ -1,0 +1,27 @@
+SOURCE
+
+Modeling sepsis progression using hidden Markov models https://arxiv.org/pdf/1801.02736.pdf
+
+AGENT
+
+Brenden K. Petersen Et al.
+
+GOAL
+
+Characterizing a patient's progression through stages of sepsis, using a hidden Markov model to enable risk stratification and adaptive, personalized treatment. 
+
+DATA
+
+25,000 patients with suspected or confirmed infection, a subset of the Kaiser Permanente Northern California dataset
+
+METHODS
+
+Hidden Markov model with 5 different states(discharged, 3 states of severity and death). All model parameters were estimated. 
+
+RESULTS
+
+This study demonstrates the utility in using HMMs to provide insight into a patient's underlying physiological trajectory, which may be used to inform clinical decisions. 
+
+COMMENTS
+
+With more work it is possible that this study could predict sepsis trajectory to a higher accuracy than traditional means. 

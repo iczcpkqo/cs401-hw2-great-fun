@@ -1,0 +1,15 @@
+SOURCE
+https://www.wired.com/2016/01/in-a-huge-breakthrough-googles-ai-beats-a-top-player-at-the-game-of-go/
+AGENT
+Google
+GOAL
+Become the first Computer Go program to beat an unhandicapped professional human player using a combination of machine learning and tree search techniques
+DATA
+A vast collection of Go moves from expert players—about 30 million moves in total
+METHODS
+DeepMind researchers trained their system to play Go on its own. But this was merely a first step. In theory, such training only produces a system as good as the best humans. To beat the best, the researchers then matched their system against itself. This allowed them to generate a new collection of moves they could then use to train a new AI player that could top a grandmaster.
+RESULTS
+After training on 30 million human moves, a DeepMind neural net could predict the next human move about 57 percent of the time, and also beat a Go Grandmaster.
+COMMENTS
+This was possibly one of if not the biggest breakthrough for Machine Learning to date, AlphaGo has since been developed into AlphaZero and can now play chess and other games, which is very impressive
+

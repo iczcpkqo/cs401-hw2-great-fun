@@ -1,0 +1,29 @@
+SOURCE
+
+https://www.adweek.com/digital/deepface/#/
+
+AGENT
+
+Yaniv Taigman
+
+GOAL
+
+Apply Machine Learning to pictures on Facebook. The goal of the project DeepFace was apply algorithms to pictures on Facebook. They wanted DeepFace to recognise familiar faces from our contact list.
+
+DATA
+
+The deep-learning part of DeepFace consists of nine layers of simple simulated neurons, with more than 120 million connections between them. To train that network, Facebook’s researchers tapped a tiny slice of data from their company’s hoard of user images—four million photos of faces belonging to almost 4,000 people.
+
+METHODS
+
+DeepFace performs what researchers call facial verification (it recognizes that two images show the same face), not facial recognition (putting a name to a face). DeepFace processes images of faces in two steps. First it corrects the angle of a face so that the person in the picture faces forward, using a 3-D model of an “average” forward-looking face. Then the deep learning comes in as a simulated neural network works out a numerical description of the reoriented face. If DeepFace comes up with similar enough descriptions from two different images, it decides they must show the same face.
+
+RESULTS
+
+Their method reaches an accuracy of 97.25 percent on the Labelled Faces in the Wild (LFW) dataset, reducing the error of the current state of the art by more than 25 percent, closely approaching human-level performance.
+
+COMMENTS
+
+This could have a lot of applications, outside of what it is being used for now. This application of deep learning will surely have a big impact in the future. It is very possible that this could soon perform better than humans.
+
+

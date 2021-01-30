@@ -1,0 +1,27 @@
+SOURCE
+
+Colorful Image Colorization https://arxiv.org/pdf/1603.08511.pdf
+
+AGENT
+
+Richard Zhang Et al.
+
+GOAL
+
+Given a grayscale photograph as input, this paper attempts to create a plausible color version of the photograph.
+
+DATA
+
+1.3M images from the ImageNet training set, validated on the first 10k images in the ImageNet validation set, and tested on a separate 10k images.
+
+METHODS
+
+Training a Convolutional Neural Network to map from a grayscale input to a distribution over quantizedcolor value outputs, using a technique for inferring point estimates of color from the predicted color distribution.
+
+RESULTS
+
+The results have shown that colorization with a deep CNN can come closer to producing results indistinguishable from real color photo.
+
+COMMENTS
+
+Although the results aren't always perfect, it is not always obvious from the photo that it was false color. The coloring of the photos appears real. 

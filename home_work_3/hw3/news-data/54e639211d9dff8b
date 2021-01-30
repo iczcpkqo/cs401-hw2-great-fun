@@ -1,0 +1,27 @@
+SOURCE
+
+https://engineeringblog.yelp.com/2015/10/how-we-use-deep-learning-to-classify-business-photos-at-yelp.html
+
+AGENT
+
+Yelp
+
+GOAL
+
+Photo classification
+
+DATA
+
+Images
+
+METHODS
+
+multiple convolutional layers (for extracting spatially local and translation-invariant features), ReLU (Rectified Linear Units) layers (for non-saturating activations), pooling layers (for down-sampling and translation-invariance), local response normalization layers (for better generalization) and fully-connected layers as in conventional feedforward neural networks. Softmax outputs and regularization methods such as dropout
+
+RESULTS
+
+Tabbed photo browsing implemented
+
+COMMENTS
+
+Still work to be done

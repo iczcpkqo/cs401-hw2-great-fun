@@ -1,0 +1,30 @@
+SOURCE
+
+Forbes.com
+https://www.forbes.com/sites/bernardmarr/2018/10/05/how-does-amazons-alexa-really-work/#784baffd1937
+
+AGENT
+
+Bernard Marr
+
+GOAL
+
+Using machine learning to better interpert a useres request on alexa voice systems
+
+DATA
+
+Alexa uses data from a paticular users past data and from other users data in a given area or similar dialect.
+
+METHODS
+
+Alexa uses Natural language processing (NLP) to turn spoken word into something a machine can understand. 
+Alexa then uses the information to determine what action the user wants to take.
+by learning from previous interaction alexa uses machine learning to be better estimate what this action could be
+
+RESULTS
+
+Alexa continues to become smarter the more a user uses it learning certain characteristics of a persons voice through machine learning 
+
+COMMENTS
+
+Alexa is really intersting use for mmachine learning that can be seen plainly every day

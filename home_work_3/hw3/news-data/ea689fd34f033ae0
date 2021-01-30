@@ -1,0 +1,14 @@
+SOURCE
+https://www.wired.com/2012/06/google-x-neural-network/
+AGENT
+The Google Brain team, led by Andrew Ng and Jeff Dean
+GOAL
+Create a neural network that learns to recognize cats by watching unlabeled images taken from frames of YouTube videos
+DATA
+The "brain" simulation was exposed to 10 million randomly selected YouTube video thumbnails over the course of three days
+METHODS
+after being presented with a list of 20,000 different items, it began to recognize pictures of cats using a "deep learning" algorithm. This was despite being fed no information on distinguishing features that might help identify one.
+RESULTS
+Picking up on the most commonly occurring images featured on YouTube, the system achieved 81.7 percent accuracy in detecting human faces, 76.7 percent accuracy when identifying human body parts and 74.8 percent accuracy when identifying cats.
+COMMENTS
+To increase the accuracy they could have tried using much more data than they did, but that may be easier now with the increased popularity of YouTube nowadays

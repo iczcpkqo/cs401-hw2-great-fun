@@ -1,0 +1,17 @@
+SOURCE
+UberEATS
+http://proceedings.mlr.press/v67/li17a/li17a.pdf
+https://eng.uber.com/michelangelo/
+https://eng.uber.com/uber-eats-trip-optimization/
+AGENT
+Uber Engineering
+GOAL
+Predicting the estimated time of a delivery and overall food preparation. To predict the total duration of the process from restaurant to customer.
+DATA
+Different time estimations on food preparation, journey and other stages during the duration of the process.
+METHODS
+Uses gradient boosted decision tree regression models to predict the end-to-end delivery time.
+RESULTS
+Created a much more accurate prediction on the delivery time.
+COMMENTS
+

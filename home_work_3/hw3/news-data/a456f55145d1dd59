@@ -1,0 +1,29 @@
+SOURCE
+
+https://www.askforgametask.com/tutorial/machine-learning-algorithm-flappy-bird/
+
+AGENT
+
+Arthur Samuel
+ 
+GOAL
+
+To achieve an artificial intelligence which can find a proper solution from a bad system by fine tuning model parameters.
+
+DATA
+
+The main approach of machine learning algorithm (ML) is based on the NeuroEvolution (or neuro-evolution). This form of machine learning uses evolutionary algorithms such as a genetic algorithm (GA) to train artificial neural networks (ANN).
+
+So for this example, we can say ML = GA + ANN.
+
+METHODS
+
+Uses Machine Learning Genetic Algorithm which is used to train and improve neural networks. Genetic algorithm is a search-based optimization technique inspired by the process of natural selection and genetics. It uses the same combination of selection, crossover and mutation to evolve initial random population.
+
+RESULTS
+
+we have successfully implemented AI robot for learning how to play the Flappy Bird game. As a result of several iterations, we can get an almost invincible player.
+
+COMMENTS
+
+I believe the neurons in hidden layer could be changed further ahead. Furthermore, changing some physical parameters such as the distance between barriers, gravity would give the game a different feel.

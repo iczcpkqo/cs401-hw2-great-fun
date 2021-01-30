@@ -1,0 +1,30 @@
+SOURCE
+
+Data Center Knowledge
+https://www.datacenterknowledge.com/machine-learning/adeptdc-wants-use-machine-learning-prevent-data-center-outages
+
+AGENT
+
+Mary Branscombe
+
+GOAL
+
+Using Machine Learning to monitor and run data centres and recove when there are failures
+
+DATA
+
+The program takes data from various data sources in the data centre such as tempeture, power supply and machine status 
+
+METHODS
+
+The program uses basic algorthims to solev samller problem such as cooling and power supply. 
+After that the machine learning functionality kicks in to find correlation between the root cause and various other sources that could potentially be causing the problem.
+Based on past cases the algorthim can detrmine the best course of action weather that be contacting the admistrator, turning off machines. Or trying to problme solve the failure.
+
+RESULTS
+
+The application can effectivley control and manage datacentres all around the world 
+
+COMMENTS
+
+An approach for businesses that is filling a much needed requirement in job sector

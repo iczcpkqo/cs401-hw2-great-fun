@@ -1,0 +1,27 @@
+SOURCE
+
+ CIO From IDG (https://www.cio.com/article/3225445/artificial-intelligence/machine-learning-success-stories.html)
+
+AGENT
+
+ Bill Hoffman
+
+GOAL
+
+ To increase the personalisation across the bank's, wholesale, commercial wealth and banking units.
+
+DATA
+
+ User's web-surfing data and user's behavioural data.
+
+METHODS
+
+ The web surfing data to understand what user exactly needs, like if they search for some details regarding housing loan in some US banking site and next time when that user comes to bank the costumer service agent can easily follow up with that. Using behavioural data, they are understanding when and how to contact users. They are using Salesforce.com’s Einstein AI/ML technology.
+
+RESULTS
+
+ This reduce so much manual handling of bank documents, process. They will automate all the process for instance, Einstein can also put a calendar invite into the agent’s calendar to remind them to call the candidate 
+
+COMMENTS
+
+ This is very useful technology and this can reduce the spamming mail to all users. With the help of this all banking sites can send mail or other promotion those who are really in need of it.

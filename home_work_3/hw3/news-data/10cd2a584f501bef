@@ -1,0 +1,24 @@
+##6. Instagram  
+
+SOURCE
+https://www.bernardmarr.com/default.asp?contentID=1396
+
+AGENT
+The app interface
+
+GOAL
+Keep users engaged by taking note of what and who they look at most and ordering their feed accordingly.
+Remove offensive and unsocial comments from the app without relying on someone repoting it.
+
+DATA
+Users interactions with the app.
+Previous reported comments or photos and the Community Guidelines.
+
+METHODS
+Machine learning.
+
+RESULTS
+After some trial and error time, users' feeds were ordered according to who they responded to and looked at the most, which increased user engagement.
+
+COMMENTS
+The removal of comments, while good in theory, has the possibility of removing content that is not actually offensive or violating any guidelines.

@@ -1,0 +1,28 @@
+SOURCE
+
+ CIO From IDG (https://www.cio.com/article/3225445/artificial-intelligence/machine-learning-success-stories.html)
+
+AGENT
+
+ Srivastava
+
+GOAL
+
+ To create the algorithm which helps users to get their maximum refund (Tax benefits)
+
+DATA
+  More than 1 billion transaction happening via Quickbooks. 
+
+
+METHODS
+
+ With the help of this 1 billion transaction, they are optimising the categorisations that occur with high accuracy. 
+
+RESULTS
+
+ Based on the categorisation, the algorithm will guide the users to achieve maximum refund through the itemised deduction process which can save upto 40% of their tax preparation time and efforts retrieving documents.
+
+COMMENTS
+ 
+ Tax system is the place people will spend lot of time in the end of year to reduce their tax or get all proof documents. This algorithm which will calculate the tax, store the documents and guide the user how they can reduce the tax. 
+ 

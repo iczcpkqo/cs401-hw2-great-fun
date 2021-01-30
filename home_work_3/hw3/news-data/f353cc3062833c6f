@@ -1,0 +1,18 @@
+SOURCE
+http://mentalfloss.com/article/503178/brief-history-deep-blue-ibms-chess-computer
+http://www-03.ibm.com/ibm/history/exhibits/vintage/vintage_4506VV1001.html
+https://www.wired.com/2017/05/what-deep-blue-tells-us-about-ai-in-2017/
+AGENT
+IBM
+GOAL
+ Beat the world champion at chess (Kasparov at the time)
+DATA
+The state of the board in almost all possible states, that the 32 pieces on the board and the ways in which they can move, also learned mostly from playing against multiple human chess players to learn counters to different moves.
+METHODS
+Deep Blue was a combination of special purpose hardware and software with an IBM RS/6000 SP2  -- a system capable of examining 200 million moves per second, or 50 billion positions, in the three minutes allocated for a single move in a chess game.
+First the machine needs to understand the state of the board—that's relatively easy—but then it needs to predict future moves. Given that the 32 pieces on the board are capable of moving to a variety of other positions, the "possibility space" for the next move (and all subsequent moves) is very large.
+In theory, a sufficiently beefy computer could simulate every possible move (and counter-move) in its memory, rank which moves end up doing best in each simulated game, and then perform the optimal move on each turn. But to actually implement a computer that powerful—and fast enough to compete in a time-limited tournament—was a matter of extreme effort. It took Hsu more than a decade to master it.
+RESULTS
+In the first ever traditional chess match between a man (world champion Garry Kasparov) and a computer (IBM's Deep Blue) in 1996, Deep Blue won one game, tied two and lost three. The next year, Deep Blue defeated Kasparov in a six-game match -- the first time a reigning world champion lost a match to a computer opponent in tournament play
+COMMENTS
+This showed the power of the technology then so if this was to be developed now it would be so much faster, smarter and harder to beat, which is very scary considering that this achievemnt is only just over 20 years ago.

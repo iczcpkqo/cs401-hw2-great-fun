@@ -1,0 +1,27 @@
+SOURCE
+
+http://geoawesomeness.com/google-maps-machine-learning-parking/
+
+AGENT
+
+- Google
+
+GOAL
+
+Google wanted to reduce the amount of time that users of Google Maps spend on searching for a parking space. 
+
+DATA
+
+Researchers at Google studied the historical parking data and collected ground truth inputs from over 100,000 people, asking questions about how long it took each respondent to find parking. They also used anonymous aggregated information from users who opted to share the location data to create training models. 
+
+METHODS
+
+Google used location data of users to create training models. For example, if a person keeps walking around in a circle around their proposed destination, then that might indicate that they are struggling to find an available parking space. Based on the dispersion of parking locations, Google used standard logistic regression models to leverage the features and predict how difficult finding an empty spot would be at any given time. 
+
+RESULTS
+
+There is now a parking difficulty icon on Google Maps. The feature only rolled out on Android devices. Google introduced a difficulty icon feature for 25 cities in the US, and another 25 worldwide. 
+
+COMMENTS
+
+On Google Maps, the 'Time to reach destination' is more often than not quite unrealistic due to there being a lack of consideration for the factor of traffic. This is especially true is more densely populated cities. 

@@ -1,0 +1,27 @@
+SOURCE
+
+Applications of Machine Learning in Pharma and Medicine ( https://www.techemergence.com/machine-learning-in-pharma-medicine/ )
+
+AGENT
+
+Researcher Jeffrey Tyner
+
+GOAL
+
+Disease identification and diagnosis of ailments.
+
+DATA
+
+Report issued by Pharmaceutical Research and Manufacturers of America in 2015 ( http://phrma-docs.phrma.org/sites/default/files/pdf/oncology-report-2015.pdf )
+
+METHODS
+
+A: Matrix representation of the supervised and unsupervised learning problem B: Decision trees map features to outcome. C: Neural networks predict outcome based on transformed representations of features D: The k-nearest neighbor algorithm assigns class based on the values of the most similar training examples
+
+RESULTS
+
+Developed two functional screening strategies making use of siRNA and small-molecule kinase inhibitor libraries to interrogate the genes and signaling pathways required for growth and viability of malignant cells. 
+
+COMMENTS
+
+It was really smart of Mr. Tyner to implement Machine Learning with Biology. But more intensive AI would be needed to identify cancer at large scale. 

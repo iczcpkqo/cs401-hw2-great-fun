@@ -1,0 +1,25 @@
+SOURCE
+
+Image Super-Resolution Using Deep Convolutional Networks https://arxiv.org/pdf/1501.00092v3.pdf
+
+AGENT
+
+Chao Dong Et al.
+
+GOAL
+
+To increase the resolution of a given image to a higher resolution using deep learning methods. 
+
+DATA
+
+Images where there is a low and high resolution version of each image.
+
+METHODS
+
+Given a low-resolution image Y, the first convolutional layer of the SRCNN extracts a set of feature maps. The second layer maps these feature maps nonlinearly to high-resolution patch representations. The last layer combines the predictions within a spatial neighbourhood to produce the final high-resolution image.
+
+RESULTS
+
+The proposed approach, Super Resolution Convolutional Neural Network(SRCNN), learns an end-to-end mapping between low and high resolution images, with little extra pre/post-processing beyond the optimization. With a lightweight structure, the SRCNN has achieved superior performance than the state-of-the-art methods.
+
+COMMENTS

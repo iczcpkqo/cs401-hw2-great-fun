@@ -1,0 +1,16 @@
+SOURCE
+https://www.datanami.com/2014/07/17/inside-sibyl-googles-massively-parallel-machine-learning-platform/
+AGENT
+Google
+GOAL
+A proprietary platform for massively parallel machine learning used internally by Google to make predictions about user behavior and provide recommendations
+DATA
+Hundreds of millions (if not billions) of users around the planet, and remembers (via extensive logging) what screens it shows them and what they did on those screens. For each application, there could be hundreds of different features that needed to be tracked.
+METHODS
+Google wanted to use standard software components wherever possible. That’s where MapReduce and the distributed Google File System (GFS) come into play.
+On top of this base of MapReduce and GFS, Google applied the Parallel Boosting Algorithm developed in 2001 by Michael Collins, Robert E. Schapire, and Yoram Singer. “We use algorithms that have been well proven in the literature,” Chandra says. “Parallel boosting is particularly well-suited for some of our requirements.”
+ “We start with an approximate solution and approximate model,” Chandra says. “That model could be really bad…Then we feed the model and all the training data in…At the end of the iteration, the algorithm is guaranteed to produce a better model. So if you keep iterating, the model gets better and better and better.”
+RESULTS
+Sibyl runs quite well on Google’s high-RAM, multi-core servers. The system is running constantly, day and night. It takes roughly 10 to 50 cycles to generate a recommendation that Google is happy with.
+COMMENTS
+While there’s no indication that Google is going to share Sibyl via open source, there’s nothing stopping others from assembling their own Sibyls using the open source components that went into the machine learning platform, or using other commonly available machine learning packages.

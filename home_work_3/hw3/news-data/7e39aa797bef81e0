@@ -1,0 +1,27 @@
+SOURCE
+
+Machine Learning: Using Algorithms to Sort Fruit - https://www.aboutamazon.co.uk/innovation/machine-learning-using-algorithms-to-sort-fruit
+
+AGENT
+
+Amazon's Automated Ripeness Detection System
+
+GOAL
+
+To determine the quality of fruits and vegetables
+
+DATA
+
+The machine was fed what good and bad products look like by inputting new product variants on a daily basis. The products are photographed and made available to the machine in the shape of data. That way, the computer gradually understands the quality standards.
+
+METHODS
+
+Pattern Matching Algorithm
+
+RESULTS
+
+The machine was able to identify bad quality produce from the good one. This helped the employees to easily remove the bad ones.
+
+COMMENTS
+
+The system is still in development phase. It still needs more data before giving a better success rate.

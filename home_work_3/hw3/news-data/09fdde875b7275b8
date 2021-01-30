@@ -1,0 +1,24 @@
+##3. DeepMind by Google  
+
+SOURCE
+https://www.bernardmarr.com/default.asp?contentID=1090
+
+AGENT
+DeepMind
+
+GOAL
+To detect early stages of degenerative eye diseases and suggest possible treatment or preventative measures.
+
+DATA
+Millions of images of eyes and patient information.
+Mappings of a patients head and neck area.
+
+METHODS
+Machine learning
+
+RESULTS
+The machine is learning already and they hope it will possibly be able to save many people from blindness in the future.
+Reduce time taken to pinpoint conditions and create treatment plans from four hours to one hour.
+
+COMMENTS
+If they could somehow teach the computer to react to and process information in the same way as the human brain then that would truly be incredible.

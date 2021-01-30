@@ -1,0 +1,7 @@
+SOURCE		Google's DeepMind
+AGENT		DeepMind Technologies
+GOAL		Create a machine that can mimic the thought processes of our brains
+DATA		They test the system on video games, notably early arcade games, such as Space Invaders or Breakout
+METHODS		Deep learning on a convolutional neural network, with a novel form of Q-learning, a form of model-free reinforcement learning
+RESULTS		It has not been achieved yet
+COMMENTS	

@@ -1,0 +1,28 @@
+SOURCE
+
+ CIO From IDG (https://www.cio.com/article/3225445/artificial-intelligence/machine-learning-success-stories.html)
+
+AGENT
+
+ Paul Daugherty
+
+GOAL
+
+ To Create an ML-Fueled app that can scan and predicts how fast an employee’s job will be irrelevant. 
+
+DATA
+ The app take the resume and other available data of the employees.
+
+
+METHODS
+
+ The app takes an employee's job experiences and assigns a risk score for their roles potential irrelevance.  For example, the app will consider the risk score and gives how the employee's skills will be dated in 18 months.
+
+
+RESULTS
+
+ The app takes into account an employee’s collective work experience and recommends adjacent skills they may wish to pick up to remain more relevant at the company
+
+COMMENTS
+
+ This app is very useful for the filtering the resources based on the growing technology and its predict how the user skills will be varying in the future.

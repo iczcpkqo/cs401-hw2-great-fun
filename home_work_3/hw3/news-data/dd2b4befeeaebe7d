@@ -1,0 +1,27 @@
+﻿SOURCE
+
+MarI/O - Machine Learning for Video Games https://www.youtube.com/watch?v=qv6UVOQ0F44
+
+AGENT
+
+SethBling
+
+GOAL
+
+Have a computer teach itself how to beat a specific level in Super Mario World.
+
+DATA
+
+Repeated attempts at beating a level with feedback given from the game. Data in the game such as walkable platforms, location of the playable character and locations of enemies.
+
+METHODS
+
+Creating a neural network which reward getting as far right as possible in a run without the playable character dying. Runs that lead to the longest distance travelled were moved into future generations and bad runs were discarded.
+
+RESULTS
+
+The computer initially was completely unaware of how to play the game, starting off without knowing that movement is required. Over time the computer learned how to move, then how to jump, how to avoid enemies and pitfalls and the computer learned more advanced techniques such as spin jumping.
+
+COMMENTS
+
+I found this video very interesting. I liked how it showed using lines how the neural network was forming as it learned what buttons were a good idea to press and what buttons were bad in a given situation in the game. However I feel like the algorithm this neural network creates is strong at this specific level and it may be weak when placed into a different level or a level with different enemy types or physics rules.

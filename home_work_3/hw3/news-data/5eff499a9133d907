@@ -1,0 +1,7 @@
+SOURCE : https://deepmind.com/blog/neural-scene-representation-and-rendering/
+AGENT Google’s DeepMind 
+GOAL To create a machine to predict what a 3d space would look like at an unseen perspective based off a single or multiple different perspective(s).
+DATA Google’s DeepMind uses the GNQ (Generative Query Network) to create data. This means that the machine does not need to be trained by a human as objects do not have to labelled for the machine to understand what they are. 
+METHODS The GNQ model has a representation network that obtains the machines observations and forms a representation of the observation. Then the machines generation network creates the same observation from a different perspective that the machine had not seen before. The machine was trained using reinforcement learning.
+RESULTS Google’s DeepMind calculates intricate 3d environments from single perspectives and predicts what they would look like.
+COMMENTS I find it interesting that in the article it mentions if a human were to walk into a room and only see one perspective of a table, with only 3 legs visible that the human brain would automatically assume there were a fourth leg if they were asked to draw the room layout. Emulating our innate ability to do this with a machine is very interesting and showcases what machine learning can achieve. 

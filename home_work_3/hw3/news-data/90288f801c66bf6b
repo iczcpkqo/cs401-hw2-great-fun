@@ -1,0 +1,15 @@
+SOURCE
+DeepFace, face recognition developed by Facebook.
+https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf
+AGENT
+Yaniv Taigman.
+GOAL
+To be able to accurately recognise faces in images.
+DATA
+Millions of images uploaded by Facebook users were used to train the face recognition machine.
+METHODS
+Used a nine layer neural net with over 120 million connection weights, trained by the images they used.
+RESULTS
+It has become 95 percent accurate recognising faces in images.
+COMMENTS
+The application is a great idea however I find it to be creepy to see that they used images from Facebook users to train it, as well as being completely accurate in recognising faces. It was great to see that it was not rolled out to EU due to data privacy laws.

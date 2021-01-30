@@ -1,0 +1,29 @@
+SOURCE
+
+https://www.techechelons.com/blog/deepface-unleashed-what-does-the-facebook-do-to-recognize-faces
+https://www.quora.com/Which-face-detection-algorithm-is-used-by-Facebook
+
+AGENT
+
+Facebook
+
+GOAL
+
+To be able to detect with considerable confidence whether two images represent the same person or not, preferably without concern for surrounding light, camera angles and colors on face. 
+
+DATA
+
+Template based on a person's facial features. Attributes within this template describe things like the juxtaposition of certain characteristics on the frame of the face. The Facebook team used more than 4 million facial images of more than 4000 people to feed training data to the learning system. 
+
+METHODS
+
+When a square box starts appearing over faces in facebook photos, this is a feature designed to let a user tag their friends. Facebook use a facial recognition software called DeepFace to map attributes of facial characteristics to a real person. The four stages in the data pipeline consist of: detect, align, represent, and classify. When you add 3D transformation and piece-wise affine transformation, the algorithm becomes more and more accurate. A face representation is derived from a nine-layer deep neural network. Layers do not have weight sharing deployed which is the contrary to standard convolution layers. 
+
+
+RESULTS
+
+DeepFace detects whether two faces in different photos are of the same person with 97.47% accuracy, regardless of lighting conditions or angles. As a comparison, humans generally have an average of 97.65% accuracy. This means that Facebook’s facial processing software has nearly the same accuracy as humans. The output of the algorithm is a face representation derived from a nine-layer neural network which holds more than 120 million variables, each mapped to various local layers. 
+
+COMMENTS
+
+

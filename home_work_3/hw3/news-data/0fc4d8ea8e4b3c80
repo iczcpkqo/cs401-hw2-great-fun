@@ -1,0 +1,30 @@
+SOURCE
+
+https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6177717 
+
+AGENT
+
+The main developer of this project was David Ferrucci, who was working for IBM.
+
+GOAL
+
+The main goal of this project, was to make a computer system capable of processing natural language questions fast 
+enough to win at the american Quiz show Jeopardy!
+
+DATA
+
+To find the correct answer, the computer system analyze and process a huge amount of data, using a technology called DeppQA.
+
+METHODS
+
+To process the information, the computer system uses tools based on optimizations of deep Content Analysis, Natural Language 
+Processing, Information Retrieval, Machine Learning and Atificial Intelligence.
+
+RESULTS
+
+The result of this project is a machine capable to compete against players who had already appeared in the TV show
+
+COMMENTS
+
+This machine is the result of decades of experience and research, and it's interesting how it combines different technologies
+to finally achieve the goal.

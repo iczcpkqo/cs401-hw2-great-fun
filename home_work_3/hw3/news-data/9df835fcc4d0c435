@@ -1,0 +1,27 @@
+SOURCE
+
+Making music using new sounds generated with machine learning - https://www.youtube.com/watch?v=iTXU9Z0NYoU
+
+AGENT
+
+Magenta
+
+GOAL
+
+To generate new sounds
+
+DATA
+
+Core aspects of what makes each sound
+
+METHODS
+
+NSynth - Neural Synthesizer Algorithm
+
+RESULTS
+
+Combining the various characteristics of each sound and generating a new sound(blending of original sounds)
+
+COMMENTS
+
+They created a NSynth Super hardware which is used by musicians to create new sound. The research is still going on and more new sounds are being fed into Magenta.

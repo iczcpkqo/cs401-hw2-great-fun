@@ -1,0 +1,28 @@
+SOURCE
+
+https://sebastianraschka.com/Articles/2015_singlelayer_neurons.html
+
+AGENT
+
+Frank Rosenblatt 
+ 
+GOAL
+
+To define an algorithm in order to learn the values of the weights w that are then multiplied with the input features in order to make a decision whether a neuron fires or not.
+
+DATA
+
+The initial idea of the perceptron dates back to the work of Warren McCulloch and Walter Pitts in 1943, who drew an analogy between biological neurons and simple logic gates with binary outputs. In more intuitive terms, neurons can be understood as the subunits of a neural network in a biological brain. 
+
+METHODS
+
+The Unit Step Function was used. Here  we will label the positive and negative class in our binary classification setting as “1” and “-1”, respectively. Next, we define an activation function g(z) that takes a linear combination of the input values x and weights w as input (z=w1x1+⋯+wmxm), and if g(z) is greater than a defined threshold θ we predict 1 and -1 otherwise; in this case, this activation function g is an alternative form of a simple “unit step function,” which is sometimes also called “Heaviside step function.”
+The perceptron algorithm is about learning the weights for the input signals in order to draw linear decision boundary that allows us to discriminate between the two linearly separable classes +1 and -1.
+
+RESULTS
+
+The perceptron converges after the 6th iteration and separates the two flower classes perfectly.
+
+COMMENTS
+
+Frank Rosenblatt proofed mathematically that the perceptron learning rule converges if the two classes can be separated by linear hyperplane, but problems arise if the classes cannot be separated perfectly by a linear classifier.

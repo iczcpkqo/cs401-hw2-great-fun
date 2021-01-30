@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.tensorflow.org/
+
+AGENT
+
+It was originally developed by the Google Brain Team, but now it is open source, so it is constantly improving.
+
+GOAL
+
+The objetive of this project is to provide a good library that people can use for research and production.
+
+DATA
+
+It makes numerical calculations using data flow diagrams.
+
+METHODS
+
+It uses neural network to search patterns and correlations. To improve the execution speed, this technology uses a powerful linear algebra compiler.
+
+RESULTS
+
+The result of this project is an open source library that is used worldwide by companies as Airbus, Intel and Twitter.
+
+COMMENTS
+
+This project started called DistBelief, but the name was changed when Google decided to make it open source.

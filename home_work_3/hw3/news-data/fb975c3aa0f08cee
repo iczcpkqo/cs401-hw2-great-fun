@@ -1,0 +1,9 @@
+Source: https://towardsdatascience.com/a-machine-learning-approach-building-a-hotel-recommendation-engine-6812bfd53f50
+https://www.kaggle.com/c/expedia-hotel-recommendations/data
+
+Agent: Susan Li, Expedia hotel search.
+Goal: aim to create the optimal hotel recommendations for ExpediaÅfs users that are searching for a hotel to book. 
+Data: Anonymous data and almost all fields are in numeric formet, the data can be seen in the source links. They used train.csv which captured the logs of user behaviour and destination.csv which contains information related to hotel reviews made by users.
+Methods: They attemtped to predict what hotel cluster a user would book based on information in their search. 
+Results: Though they attempted to use multiple algorithms they seemed unable to get a low enough error value and concluded that further feature engineering would be needed.
+Comments: Using actual user data was a great way to evaluate real life scenarios and get the best possible chance for the algorithms to get the best results. Though they used many different algorithms they didn't seem to get a satifactorty result. Perhaps had they expanded their sample size or changed the hotel clusters it could have resulted in a better result.

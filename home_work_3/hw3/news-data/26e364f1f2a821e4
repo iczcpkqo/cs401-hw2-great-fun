@@ -1,0 +1,25 @@
+SOURCE
+
+https://gmail.googleblog.com/2015/07/the-mail-you-want-not-spam-you-dont.html
+
+AGENT
+
+Google Gmail
+
+GOAL
+
+Detect and classify spam emails to non spam emails
+
+DATA
+
+User's mailbox with all the further details, like the labels put by the user (mail considered as spam, mail considered as important...)
+
+METHODS
+
+Classification method to detect a spam from a sane mail. Artificial neural network to block spam email, scam mail and identity your profile (if you are more the newsletter guy)
+
+RESULTS
+
+In this blog post, Gmail claims that 0.1% of the actual spam mail volume isn't detected as spam and 0.05% of "standard" mail lands in the spam mailbox.
+
+COMMENTS

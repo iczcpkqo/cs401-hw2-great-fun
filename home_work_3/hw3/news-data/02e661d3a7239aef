@@ -1,0 +1,27 @@
+﻿SOURCE
+
+Times Now News "New Machine Learning system may help debunk fake news" https://www.timesnownews.com/technology-science/article/new-machine-learning-system-may-help-debunk-fake-news/295675
+
+AGENT
+
+Massachusetts Institute of Technology (MIT) researchers 
+
+GOAL
+
+Create a model for determining if a news source is biased or inaccurate.
+
+DATA
+
+150 news articles from a site. Data from MediaBias/FactCheck
+
+METHODS
+
+Used an algorithm called a Support Vector Machine (SVM) classifier and used the SVM classifier to classify websites similar to MediaBias/FactCheck. Checking previous articles and linguistic features including language complexity and structure were used to determine bias and accuracy.
+
+RESULTS
+
+The system was 65% accurate at detecting how accurate a news outlet was using a 3 point scale (highly accurate, medium or low), and roughly 70 % accurate in detecting if it is politically left-leaning, right-leaning or moderate.
+
+COMMENTS
+
+I found this article interesting but I don't believe it has a high enough accuracy yet to be used in real world applications. 65% accuracy is too low to be calling out news outlets as on average you're getting a wrong result for 1 out of 3 sites. 

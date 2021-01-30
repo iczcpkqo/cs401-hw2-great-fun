@@ -1,0 +1,41 @@
+type,class,topic,,,pro
+GOAL_clean,0,create learning machine ai data using use identify new goal ,创建，学习，机器，人工智能，数据，使用，使用，确定，新，目标，,创建机器学习,"[0.02199674 0.01940087 0.01875861 0.01859429 0.01654824 0.01582726
+ 0.01342523 0.01252904 0.01231217 0.01194911]"
+GOAL_clean,1,predict facial languages eye performance early diagnose lost models within ,预测，面部，语言，眼睛，性能，早期，诊断，丢失，模型，内，,预测语言面部,"[0.02543793 0.02397408 0.0210443  0.02060679 0.02021769 0.0200064
+ 0.01984083 0.01740828 0.01688677 0.01557897]"
+GOAL_clean,2, images time beat play improve chess go model world ,图像，时间，节拍，播放，改进，棋，去，模型，世界，,图像节拍时间,"[0.09494789 0.02106249 0.01829973 0.01739878 0.01727273 0.0171763
+ 0.01545581 0.01477242 0.01425782 0.01315151]"
+DATA_clean,0, database data used dataset thousands different past public patients ,数据库，数据，使用，数据集，成千上万，不同，过去，公共，患者，,数据库使用数据,"[0.09256136 0.02443558 0.02121607 0.01733225 0.01634148 0.01572675
+ 0.01542224 0.01298116 0.01209868 0.01202581]"
+DATA_clean,1,various taken face games multiple image data specified images team ,各种，采取，脸，游戏，多个，图像，数据，指定，图像，团队，,各种脸采取,"[0.04221952 0.02791542 0.02190942 0.0203216  0.01994172 0.01967563
+ 0.01887746 0.01853421 0.01575872 0.01560987]"
+DATA_clean,2,images game data zinc input set go language given google ,图片，游戏，数据，锌，输入，设置，转到，语言，给出的，Google，,图片数据游戏,"[0.02118897 0.02051054 0.01499797 0.01499249 0.01371834 0.01338456
+ 0.01221594 0.01194016 0.01131434 0.01119384]"
+METHODS_clean,0,supervised learning would like tool data reward input using brain ,在监督下，学习，想要，工具，数据，奖励，输入，使用，大脑，,在监督下想要学习,"[0.02108692 0.01562407 0.01500453 0.01386813 0.01378683 0.01373357
+ 0.01278873 0.0116178  0.01159663 0.01158824]"
+METHODS_clean,1,supervised learning machine clustering vision particular analytics computer predictions algorithm ,监督下，学习，机，聚类，视觉，特别，分析，计算机，预测，算法，,监督下机学习,"[0.16512851 0.07975419 0.0454482  0.02119379 0.01903714 0.0177052
+ 0.01730788 0.01698611 0.01200668 0.01080382]"
+METHODS_clean,2,deep supervised neural network learning classification mentioned algorithm train used ,深度，监督，神经，网络，学习，分类，提到，算法，火车，使用,深度神经监督,"[0.06424598 0.04370681 0.04152257 0.04087359 0.03880836 0.02984768
+ 0.0243332  0.0204949  0.01874989 0.0179235 ]"
+METHODS_clean,3,used model reinforcement network neural artificial convolutional image trained learning ,使用，模型，钢筋，网络，神经，人工，卷积，图像，训练，学习，,使用钢筋模型,"[0.02221742 0.02180215 0.02051377 0.02039836 0.01969791 0.01779024
+ 0.01669592 0.01663799 0.01468307 0.01424083]"
+METHODS_clean,4, unsupervised language processing natural models facial different regression features ,无监督，语言，处理，自然，模型，面部，不同，回归，特征，,无监督处理语言,"[0.12842098 0.04889349 0.02774891 0.0274825  0.02535214 0.02237578
+ 0.02009301 0.02007763 0.01629503 0.01590411]"
+RESULTS_clean,0,percent accuracy language improvement within first patients model able predict ,百分比，准确性，语言，改进，首先，病人，模型，可，预测，,百分比语言准确性,"[0.02439342 0.01819609 0.01786187 0.01497419 0.01353063 0.01339103
+ 0.01327075 0.01317236 0.01263579 0.01211654]"
+RESULTS_clean,1,ai accuracy results people tests less positive performance time per ,ai，准确性，结果，人民，测试，更少，积极，性能，时间，每,ai结果准确性,"[0.02536491 0.02124507 0.02039226 0.01599653 0.01573558 0.01538351
+ 0.01498855 0.01387612 0.01358543 0.01252696]"
+RESULTS_clean,2,new better system machine images go rate alphago capable identified ,新增功能，更好，系统，机，图像，去，率，alphago，能够，已识别,新增功能系统更好,"[0.02480461 0.0195034  0.01584816 0.0139258  0.01389873 0.01361412
+ 0.01333622 0.01332499 0.01324476 0.01320848]"
+ISSUES_clean,0,n data issues problem training public using results machine large ,数据，问题，问题，培训，公共，使用，结果，机器，大,数据问题问题,"[0.03228998 0.02350843 0.02064027 0.01990587 0.01826607 0.01704025
+ 0.01515903 0.01482057 0.01363868 0.01346532]"
+ISSUES_clean,1,issues could team time algorithm use also good however accurate ,问题，可以，团队，时间，算法，使用，还，很好，但是，准确，,问题团队可以,"[0.06090158 0.02212928 0.01952977 0.01787763 0.01690717 0.01642702
+ 0.01585436 0.01435971 0.0134836  0.01339253]"
+ISSUES_clean,2,person model many different images problems work real would see ,人，模型，许多，不同，图像，问题，工作，真实，将，请参阅,人许多模型,"[0.02065584 0.01712249 0.01508277 0.01454214 0.01441772 0.01409215
+ 0.01408018 0.01353826 0.01330927 0.01222778]"
+COMMENTS_clean,0,n learning machine future article ai useful could interesting good ,n，学习，机器，未来，文章，ai，有用，可以，有趣，很好，,n机器学习,"[0.01945265 0.01579145 0.01305598 0.01094323 0.01042606 0.00994282
+ 0.0096092  0.00942863 0.00857448 0.00828513]"
+COMMENTS_clean,1, google reduce predict level tool human far players set ,谷歌，减少，预测，级别，工具，人类，远，玩家，设置，,谷歌预测减少,"[0.16389064 0.01614243 0.01148589 0.01045997 0.0095844  0.00847172
+ 0.00837717 0.00792226 0.00729005 0.00702035]"
+COMMENTS_clean,2,system people interesting study new application like still projects field ,系统，人民，有趣，研究，新，应用程序，如，仍，项目，字段，,系统有趣人民,"[0.01614386 0.01221617 0.00898617 0.00892163 0.00884358 0.00882811
+ 0.00858828 0.00843134 0.00826422 0.00784417]"

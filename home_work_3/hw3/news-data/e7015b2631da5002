@@ -1,0 +1,21 @@
+Source:
+	Statt, N. (2018, May, 10th), ‘Google now says controversial AI voice calling system will identify itself to humans’, https://www.theverge.com/2018/5/10/17342414/google-duplex-ai-assistant-voice-calling-identify-itself-update
+(2018, May, 11th), ‘Google's AI phone calling software will not pretend to be human’, https://www.irishnews.com/magazine/technology/2018/05/11/news/google-s-ai-phone-calling-software-will-not-pretend-to-be-human-1327681/
+
+Agent:
+	Google Duplex
+
+Goal: 
+The purpose behind Google Duplex was to perform an inquiry and/or booking for multiple services. The goal was also to be as convincing as possible, and convince the support desks that they were talking to a real person on the line.
+
+Data:
+Google Duplex took in various forms of vocal data for processing. This includes voice commands, conversation context, and automatic speech recognition.
+
+Method:
+With this technology Duplex analyses the data using an advance set of neural networking to arrive at its appropriate response. This result is passed into a text-to-speech software, which is how the AI communicates with the call receiver.
+
+Result:
+On live demonstration of the technology the machine made calls to book a restaurant table, and an appointment in a hair salon. The results were made available to hear in the audience. The device ‘umed’ and ‘erred’ like any person would, and none of the people it called suspected it of being an AI.
+
+While many of the articles I read were worried about this technology I honestly wasn’t. I did wonder whether this counted as passing the supposed Turing Test, or if that’s an adequate benchmark for AI now.
+

@@ -1,0 +1,27 @@
+SOURCE
+
+MarI/O - Machine Learning for Video Games - https://www.youtube.com/watch?v=qv6UVOQ0F44
+
+AGENT
+
+MarI/O
+
+GOAL
+
+To finish a stage of Mario
+
+DATA
+
+Stage map was drawn where white squares were used to identify the stationary objects like the road and black squares were used for movable objects. Also a fitness score was assigned for the distance Mario reaches in the stage.
+
+METHODS
+
+Neural networks and Genetic algorithm was used. NEAT - Neuro Evolution of Augmenting Topologies.
+
+RESULTS
+
+The stage was completed after 34 tries.
+
+COMMENTS
+
+The computer was able to easily identify the solution to the stage by trying to maximise the fitness score. At 1st generation, it just used to stand at the start but as it started moving right, causing increase in fitness score, did it came to know the end result.

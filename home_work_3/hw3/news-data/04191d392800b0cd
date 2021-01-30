@@ -1,0 +1,23 @@
+SOURCE
+
+https://www.researchgate.net/profile/Arvind_Singh56/post/What_is.../Cutler.pdf
+
+AGENT
+
+Adele Cutler, D. Richard Cutler and John R. Stevens
+
+GOAL
+
+Random Forests are an extension of Breiman’s bagging idea and were developed as a competitor to boosting. Random Forests can be used for either a categorical response variable, referred to in as “classification”, or a continuous response, referred to as “regression".
+
+METHODS
+
+A Random Forest is a tree-based ensemble with each tree depending on a collection of random variables. More formally, for a p-dimensional random vector X = (X1,...,Xp)T representing the real-valued input or predictor variables and a random variable Y representing the real-valued response, we assume an unknown joint distribution PXY (X,Y). The goal is to find a prediction function f(X) for predicting Y. The prediction function is determined by a loss function L(Y, f(X)) and defined to minimize the expected value of the loss EXY (L(Y, f(X))) (1) where the subscripts denote expectation with respect to the joint distribution of X and Y.
+
+RESULTS
+
+The Output was successful and Integration of new and additional features was actively Supported.
+
+COMMENTS
+
+Random Forests are a multi-purpose tool, applicable to both regression and classification problems, including multi class classification. This algorithm can be sorted more for further applications.

@@ -1,0 +1,29 @@
+SOURCE
+
+https://orizon.immo/be/ http://www.influencia.net/fr/actualites/media-com,audace,orizon-agence-immobiliere-qui-specule-sur-rechauffement-climatique,7885.html
+
+AGENT
+
+Artefact coordinated by Greenpeace France
+
+GOAL
+
+The first goal of the website "Orizon" is to predict the cost of the houses on the France and Belgium sea coasts in a century given the fact that the sea level will increase.
+The second goal is to increase environment awareness, saying that to help your descendant in a century, you must be starting by taking care of the planet.
+
+DATA
+
+Real estate announces, topologic map of France/Belgium given by the NASA with an increase of the sea level by 1 meter corresponding of the estimation given by the report GIEC in 2014 used during CO21.
+
+METHODS
+
+Supervised machine learning with features as surface, square meters, city square meters but also new feature like the distance to sea in 2100.
+
+RESULTS
+
+The result must be measured not by the correct price estimation but by the number of people targeted by this website.
+I don't have any number but in my opinion this is a great marketing ploy.
+
+COMMENTS
+
+The website main focus isn't about machine learning but it is always interesting to see how this field was used to attract and aware people.

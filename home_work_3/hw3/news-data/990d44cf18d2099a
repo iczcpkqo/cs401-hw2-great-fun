@@ -1,0 +1,27 @@
+SOURCE
+
+http://news.mit.edu/2018/automating-molecule-design-speed-drug-development-0706
+
+AGENT
+
+Wengong Jin, a PhD student in CSAIL, Regina Barzilay, the Delta Electronics Professor at CSAIL and EECS and Tommi S. Jaakkola, the Thomas Siebel Professor of Electrical Engineering and Computer Science in CSAIL, EECS, and at the Institute for Data, Systems, and Society.
+
+GOAL
+
+To automate the normally time-consuming error-prone process of designing new molecules for the pharmaceutical industry with efficient results.
+
+DATA
+
+The researchers trained their model on 250,000 molecular graphs from the ZINC database, a collection of 3-D molecular structures available for public use. They tested the model on tasks to generate valid molecules, find the best lead molecules, and design novel molecules with increase potencies.
+
+METHODS
+
+They basically take input molecular structure data and directly create molecular graphs which are a detailed respresentation of a molecular structure. It breaks those graphs down into smaller clusters of valid functional groups that it uses as "building blocks" that help it more accurately reconstruct and better modify molecules compared to the generic SMILES method that uses strings to represent atoms and bonds which results in molecules that are chemically invalid.
+
+RESULTS
+
+In initial tests, the researchers' model generated 100 percent chemically valid molecules compared to the traditional SMILES model that generated 43 percent valid molecules from the same distribution. Also the model searched an entire collection of molecules to find the best lead molecule with a 30 percent higher potency than usual systems. It also created new molecules that averaged more than 80 percent improvement in potency.
+
+COMMENTS
+
+

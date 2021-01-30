@@ -1,0 +1,27 @@
+SOURCE 
+
+https://janhuenermann.com/blog/abstract-art-with-ml?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+
+AGENT 
+
+Jan Huenermann
+
+GOAL 
+
+Attempt to create abstract art using Machine Learning, which can be static or dynamic art.
+
+DATA 
+
+No previous data was used - the images are generated using functions and iterations over the same image.
+
+METHODS 
+
+They used Pattern Producing neural networks, which allows for randomly generated neural networks with iteration to produce abstract images.
+
+RESULTS 
+
+With enough iterations, the algorithm was able to produce very complex and in certain cases, moving imagery using Pattern Producing neural networking.
+
+COMMENTS 
+
+Although this may not have an obvious use in a practical scenario, it also is fascinating that abstract art can be produced using machine learning. I feel it could potentially be used with tweaking to expand its usage case to detecting patterns within photographs.

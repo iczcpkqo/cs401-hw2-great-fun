@@ -1,0 +1,13 @@
+Source: https://towardsdatascience.com/using-machine-learning-to-simulate-world-cup-matches-959e24d0731
+
+Agent: Rodrigo Nader
+
+Goal: Simulate the knockout stage of the 2018 world cup to predict a winner
+
+Data: Data was obtained from Fifa Index
+
+Methods: Using team performence and overall values for the teams over years each was given various different values. Using these values a model was created to take the values in and comprise a % chance of each team winning.
+
+Results: An interesting knock out graph estimating spain would ultimately win. though the model has a 30% error rate. 
+
+Comments: I believe this was ultimately a fruitless effort as to accurately simulate a winner for these matches, human error, bad days, whether preferences and even age of players all need to be taken into account. If the model was possibly improves to include and allow for all these things it would be interesting to see if it would be possible to create a model that could accurately choose the winner out of a large group of countries.

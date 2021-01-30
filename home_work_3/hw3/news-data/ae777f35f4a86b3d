@@ -1,0 +1,28 @@
+SOURCE 
+
+https://deepmind.com/blog/neural-scene-representation-and-rendering/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+
+AGENT 
+
+Danilo Jimenez Rezende
+Ali Eslami
+
+GOAL 
+
+Attempt to re-create a 3D environment using neural rendering using various 2D images, and compare how faithful the neural render is to the original design, from which the 2D images are created.
+
+DATA 
+
+Data was created from various human made 3D environments and objects, from which 2D images are taken.
+
+METHODS 
+
+They used a Generative Query Network (GQN), a framework which allows for a neural network to understand 3D environments from 2D images, and allows for them to attempt to emulate what a 3D environment and object is from one or more 2D images
+
+RESULTS 
+
+With some learning, the neural network was able to more and more accurately recreate 3D environments and objects. This was more and more impressive to the agents the more complicated the tests were made.
+
+COMMENTS 
+
+This would be a huge cornerstone to the area’s of automated cars, where they would need to be able to recreate their area’s to detect objects, dangers and where to drive.

@@ -1,0 +1,27 @@
+SOURCE
+
+https://blog.twitter.com/engineering/en_us/topics/insights/2017/using-deep-learning-at-scale-in-twitters-timelines.html
+
+AGENT
+
+Twitter
+
+GOAL
+
+Curated timelines
+
+DATA
+
+User data from twitter
+
+METHODS
+
+discretization, sparse linear layer, a sampling scheme associated with a calibration layer
+
+RESULTS
+
+Improved user experience
+
+COMMENTS
+
+good job twitter

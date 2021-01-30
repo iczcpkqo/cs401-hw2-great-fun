@@ -1,0 +1,14 @@
+SOURCE
+https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/
+AGENT
+Facebook
+GOAL
+ A system that uses neural networks that identifies faces with 97.35% accuracy.
+DATA
+Trained on the largest facial dataset to-date, an identity labeled dataset of four million facial images belonging to more than 4,000 identities.
+METHODS
+In modern face recognition, the conventional pipeline consists of four stages: detect => align => represent => classify. Facebook revisited both the alignment step and the representation step by employing explicit 3D face modeling in order to apply a piecewise affine transformation, and derive a face representation from a nine-layer deep neural network. This deep network involves more than 120 million parameters using several locally connected layers without weight sharing, rather than the standard convolutional layers
+RESULTS
+The results are an improvement of more than 27% over previous systems and rivals human performance.
+COMMENTS
+This is a remarkable accomplishment, and hopefully in the near future it will be able to be used with accuracy by the police to identify criminals, etc. 

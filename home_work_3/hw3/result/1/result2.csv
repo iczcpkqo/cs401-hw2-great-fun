@@ -1,0 +1,37 @@
+type,class,璇?姒傜巼,topic,name,
+GOAL_clean,0, ai using use learning time machine create system goal ,ai，使用，使用，学习，时间，机器，创建，系统，目标，,创造需要时间,"[0.05725016 0.01599464 0.01515791 0.01507374 0.01486553 0.01482833
+ 0.01370354 0.01270256 0.01199871 0.01120884]"
+GOAL_clean,1,predict improve early eye performance reduce alzheimer mars model find ,预测，改善，早期，眼睛，性能，减少，阿尔茨海默氏症，火星，模型，查找，,预测和改善像眼睛一样重要,"[0.02702884 0.02207882 0.01773879 0.01738935 0.01708487 0.01701063
+ 0.01687422 0.01459453 0.01453355 0.01430865]"
+GOAL_clean,2,go images beat create play could human data new languages ,去，图像，节拍，创建，播放，可以，人类，数据，新，语言，,人类需要图像处理,"[0.03476526 0.03360803 0.02996394 0.02318904 0.0203662  0.02013332
+ 0.01915522 0.01857414 0.01854353 0.01833678]"
+DATA_clean,0,past facebook us patients photos collected data study project research ,过去，facebook，我们，病人，照片，收集，数据，研究，项目，研究，,facebook,"[0.02437792 0.02033029 0.01875725 0.0183377  0.01798285 0.0171398
+ 0.01588763 0.01575895 0.015003   0.01390851]"
+DATA_clean,1, database game data images used zinc taken face eye ,数据库，游戏，数据，图像，使用，锌，采取，脸，眼睛，,game,"[0.09093341 0.02905559 0.01980481 0.01671497 0.01578197 0.01490186
+ 0.01449272 0.01195062 0.01184573 0.01178282]"
+DATA_clean,2,various data images training dataset input machine learning set go ,各种，数据，图像，培训，数据集，输入，机器，学习，设置，去，,various,"[0.02351619 0.02109576 0.02008787 0.01761404 0.01614163 0.013687
+ 0.01323697 0.01323447 0.01300486 0.01208552]"
+METHODS_clean,0, models artificial convolutional neural facial network used regression recognition ,模型，人工，卷积，神经，面部，网络，使用，回归，识别，,神经网络,"[0.09926232 0.02287038 0.0191485  0.01832916 0.0167675  0.01578378
+ 0.0150713  0.01345734 0.01277615 0.01270052]"
+METHODS_clean,1,unsupervised deep natural language processing learning classification mentioned data network ,无监督的，深度的，自然的，语言，处理，学习，分类，提到的，数据，网络，,无监督学习,"[0.04251764 0.02601613 0.02207916 0.0219267  0.02036715 0.0157926
+ 0.01361774 0.01344166 0.01334163 0.01330061]"
+METHODS_clean,2,supervised learning machine network reinforcement used neural algorithm different image ,监督下，学习，机器，网络，钢筋，使用，神经，算法，不同，图像，,有监督学习,"[0.08025219 0.04801906 0.02497611 0.01959318 0.01665733 0.01604014
+ 0.01597518 0.01486827 0.0126438  0.01256858]"
+RESULTS_clean,0,percent language improvement patients images best less algorithm user model ,百分比，语言，改进，患者，图像，最佳，更少，算法，用户，模型，,关于医疗的改进百分比,"[0.02703224 0.01869247 0.01638251 0.01520401 0.01504477 0.01363562
+ 0.01321946 0.01227782 0.01169309 0.0112938 ]"
+RESULTS_clean,1,accuracy system human people go tests capable rate identified new ,准确性，系统，人类，人民，去，测试，能够，比率，确定，新，,关于系统的准确性,"[0.03428146 0.02391477 0.01844226 0.01695166 0.01563941 0.01528098
+ 0.01520796 0.01470918 0.01470101 0.01457753]"
+RESULTS_clean,2,results better able machine however first within ai new predict ,结果，更好，可以，机器，但是，首先，在，ai，新，预测中，,关于获得更好的结果,"[0.02559821 0.01814284 0.015102   0.01365466 0.01355625 0.01338095
+ 0.01325089 0.01303453 0.01177723 0.01118905]"
+ISSUES_clean,0,issues could time team ethical issue system images training problem ,问题，可以，时间，团队，道德，问题，系统，图像，培训，问题，,团队和道德,"[0.02382317 0.01645125 0.01484563 0.01480834 0.01441197 0.01395335
+ 0.01394723 0.01366906 0.01362393 0.01319654]"
+ISSUES_clean,1,model good result large possible exists bias false dataset able ,模型，良好，结果，大，可能，存在，偏差，错误，数据集，可以，,模型存在偏差,"[0.02536359 0.0234187  0.01948768 0.01901184 0.0187858  0.0154856
+ 0.01501662 0.01482528 0.0135389  0.01330115]"
+ISSUES_clean,2,issues n person use problems used public question testing model ,问题，n，人，使用，问题，使用，公共，问题，测试，模型，,和人有关的公共问题,"[0.06023889 0.02981605 0.02193029 0.01719086 0.01490203 0.01470936
+ 0.01444663 0.01306091 0.01110931 0.01090428]"
+COMMENTS_clean,0, like useful cool interesting learning find new specific technology ,像，有用，很酷，有趣，学习，找到，新的，特定的，技术，,机器学习很有用很酷,"[0.09265702 0.01060516 0.00865509 0.00854756 0.00854382 0.00717456
+ 0.00713552 0.00712097 0.00707591 0.00707174]"
+COMMENTS_clean,1,future system projects model could field google quite images data ,未来，系统，项目，模型，可以，字段，谷歌，相当，图像，数据，,未来系统,"[0.0161428  0.01139781 0.01020269 0.00991179 0.00980371 0.00977823
+ 0.00951814 0.00922642 0.00885192 0.008293  ]"
+COMMENTS_clean,2,n learning machine people humans study ai many seems always ,n，学习，机，人民，人类，研究，艾，许多，似乎，总是,人类和机器学习密不可分,"[0.02498413 0.01682005 0.01501402 0.01051933 0.01010298 0.00979893
+ 0.00945629 0.00886107 0.00870987 0.00852484]"

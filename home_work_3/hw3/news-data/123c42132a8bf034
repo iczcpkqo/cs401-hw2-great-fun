@@ -1,0 +1,26 @@
+SOURCE
+
+Machine learning for real-time prediction of complications in critical care, a retrospective study https://www.sciencedirect.com/science/article/pii/S221326001830300X
+
+AGENT
+
+Alexander Meyer, Dina Zverinski, Boris Pfahringer et al.
+
+GOAL
+
+Wanted to predict whether severe complications will occur after a cardiothoracic surgery.
+
+DATA
+
+Patients who underwent major open-heart surgery over 16 years starting in Jan 1, 2000.
+
+METHODS
+
+Used deep learning methods using recurrent neural networks. Measured the accuracy and timeliness of the model and compared the predictive quality to commonly used clinical reference tools.
+
+
+RESULTS
+
+Showed accurate predictions with the following PPV, Positive Predictive Value, and sensitivity scores respectively PPV 0.90 and sensitivity 0.85 for mortality, 0.87 and 0.94 for renal failure, and 0.84 and 0.74 for bleeding. The predictions outperformed the standard clinical reference tools.
+
+COMMENTS

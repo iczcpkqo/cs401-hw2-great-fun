@@ -1,0 +1,7 @@
+SOURCE https://blog.openai.com/glow/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+AGENT OpenAI’s Glow
+GOAL To create a reversable generative model that can generate high resolution and realistically convincible images of people that can be manipulated or mixed.
+DATA The data is taken from images. The agent interprets the image as data understanding all structure that is present in the image/data.
+METHODS Glow uses a flow-based generative model combined with training examples to render high resolution images.
+RESULTS Glow has achieved much better benchmarks compared to the previous most successful flow-based generative model which was RealVPN and can generate models very quickly depending on the graphics processing unit of the machine it is being ran on.
+COMMENTS While glow may be a fun tool for seeing what you’re going to look like in ten years – or to see what you’d look like if you were blonde, it shows how images can be taken as data and manipulated using the agent. The model itself has many applications besides manipulating an image such as text analysis or speech synthesis.

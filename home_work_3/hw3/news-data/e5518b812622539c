@@ -1,0 +1,39 @@
+SOURCE
+
+http://science.sciencemag.org/content/early/2017/03/01/science.aam6960
+
+AGENT
+
+Matej Moravčík
+Martin Schmid 
+Neil Burch
+Viliam Lisý
+Dustin Morrill
+Nolan Bard
+Trevor Davis
+Kevin Waugh
+Michael Johanson
+Michael Bowling
+(Alumni associated with University of Alberta)
+
+GOAL
+
+The team behind DeepStack wanted to surpass the recent milestones of artificial intelligence in games, and mark the first time that anyone has ever solved a game with imperfect information, unlike games like Go and Chess. 
+
+DATA
+
+The data provided to the DeepStack algortithm can be categorised into states, namely the public state (Community cards on table which everyone can see) and the private information state (Two private cards for each player). Besides this data, there is a sequence of betting actions made by the players previous to the current hand at play. 
+
+METHODS
+
+The DeepStack algorithm is focused on assembling the most appropriate information for imperfect information games such as poker. It combines relevant reasoning to handle the information asymmetry problem between players. The form of intuition used by DeepStack is learned from self-play. The correct decision at a particular moment depends upon the probability distribution over private information that the opponent holds. This is revealed through their pas actions. The Counterfactual minimisation algorithm uses self-play to adapt its strategy against itself over successive iterations. The DeepStack algorithm is essentially composed of three parts: a sound local strategy computation for the current public state within the 'public tree', depth-limited lookahead, and a restricted set of lookahead actions. Sparse lookahead trees are built to reduce the number of actions considered.
+
+RESULTS
+
+DeepStack defeated professional poker players in no-limit Texas hold'em with 'Statistical significance'. The approach is said to be theoretically sound. There were other approaches taken by several other organisations but DeepStack is said to produce strategies which are more difficult to exploit. The DeepStack algorithm tries to solve for a Nash Equilibirum such that the best an opponent can do against the AI is to tie. 
+
+COMMENTS
+
+The computational power was an issue for some time. Games like Limit Poker proved easier to be 'Weakly solved' but not much could be said for 'No-limit'. 
+
+

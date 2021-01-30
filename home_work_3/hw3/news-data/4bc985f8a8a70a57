@@ -1,0 +1,32 @@
+SOURCE
+
+https://searchengineland.com/google-uses-machine-learning-search-algorithms-261158
+https://www.searchenginejournal.com/google-algorithm-history/rankbrain/
+https://searchenginewatch.com/2016/09/13/how-does-rankbrain-work-and-what-does-it-mean-for-search-marketers/
+
+AGENT
+
+Gary Illyes – Google 
+
+GOAL
+
+The team behind RankBrain at Google wanted:
+	- To enhance search quality and to 'come up with new signals and aggregations'. 
+	- To use RankBrain, a machine learning AI system that helps Google to process results and provide more relevant search results for users. 
+
+DATA
+
+RankBrain uses a series of databases based on people, places and things to seed the algorithm and its machine learning process. 
+
+
+METHODS
+
+RankBrain can re-rank based on historical signals. The system uses AI to transform semantics into mathematical entities, mainly vectors. It is a processing algorithm that uses machine learning to return best match to query for user when it isn't sure what is meant by the query. RankBrain is not a Natural Language Processor which would only be used by a search engine to break down sentences and understand the intent of the user from the users sentence structure and linguistics. RankBrain does not infer meaning based on language alone. Instead, it a requires a database of relationships and vectors of relationships between similiar queries. This way, it can pull back a 'best guess' result. Words are broken down into word vectors and each word is given an address such that similiar words should share similiar addresses. Google refines the results over time by improving the match between users search intent and the search results that Google actually returns.  
+
+RESULTS
+
+RankBrain handles 15% of Google’s queries, working out intent behind never before seen searches much faster than the old rules-based system. You will be able to find information about a particular thing, without using a specific word in question. For example, you may ask: 'Who won the Premier League last year?'. It would return 'Manchester City' even though this wasn't explicitly mentioned within the query itself. 
+
+COMMENTS
+
+

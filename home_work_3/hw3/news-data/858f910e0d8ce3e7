@@ -1,0 +1,7 @@
+SOURCE https://blog.openai.com/openai-five/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+AGENT OpenAI
+GOAL OpenAI wanted to develop a team of five neural networks to compete against professional players in the popular online game Dota 2.
+DATA There are many playable characters within the game and it used LSTM data for each of them.
+METHODS It used reinforcement learning simulating 180 years of gameplay a day. Games last an average of 45 minutes, so the bot was running multiple games at once at a higher speed than usual.
+RESULTS OpenAI was brought in to play against one of the best teams that play Dota 2 professionally during one of their tournaments. While not as successful as the original OpenAI 1v1 Dota bot, they performed quite well on the stage and it is still a great advancement as the 5v5 format is much more complicated than the 1v1 format.
+COMMENTS OpenAI 5 shows great advancements to machine learning. Previously bots to play games like Chess and Go where made. However, Dota 2 and other online games are much more complex when it comes to choices, as there is many more moves you can make at any given moment. 

@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.adweek.com/digital/deepface
+
+AGENT
+
+Facebook
+
+GOAL
+
+Develop DeepFace, software capable of recognizing when two pictures are of the same faces. This is called facial verification.
+
+DATA
+
+Labeled dataset containing 4 million pictures of around 4000 individuals. This was the largest facial dataset at the time.
+
+METHODS
+
+Used a neural network with 9 layers and 120 million parameters. Instead of standard convolution layers, DeepFace uses locally connected layers without weight sharing.
+
+RESULTS
+
+DeepFace was 97.25 percent accurate	on a dataset of faces called Labeled Faces in the Wild. This was an improvement over the previous facial verification and just short of the level of accuracy humans can produce.
+
+COMMENTS
+
+This method of facial recognition seems like an easy choice for a company that has access to such a large dataset of labeled pictures. I am interested in learning why they would choose to use locally connected layers instead of the standard way. 

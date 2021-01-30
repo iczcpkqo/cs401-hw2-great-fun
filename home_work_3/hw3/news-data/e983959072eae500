@@ -1,0 +1,28 @@
+SOURCE
+
+https://making.lyst.com/2017/02/21/working-with-fashion-models/
+
+AGENT
+
+Lyst
+
+GOAL
+
+Use machine learning to help make recommendations to customers based on several factors. Create an effective algorithm that can process images of clothing and make a recommendation based on the user preferences. 
+
+DATA
+
+The main data citizen at Lyst is the product. A product is a fashion item that’s buyable from 1 or more retailers. Each retailer has its own textual description and images for the product. Product are tagged with meta-data by their moderation team, 5 of which Lyst uses as labels to train their model; gender, colour, type, category and subcategory. Gender is male or female, colour is one of their 16 “Lyst colours”. Type, category and subcategory form their internal fashion taxonomy. Examples include shoes -> trainers -> hi-top trainers and clothing -> dresses -> gowns. There are only 5 types but 158 subcategories.
+
+METHODS
+
+In terms of pre-processing they use the semi-standard method of mean subtraction with an aspect-ratio preserving scale followed by a random crop. For regularisation they randomly copy and mirror half the batch horizontally. they do not use other augmentations like rotation or vertical reflection because the objects in their images are rarely, if ever, angled in that manner. they used chainer for training. they trained on AWS using 4 GPUs. The model is trained via SGD with momentum and the learning rate was controlled manually based on the validation set loss. they used batch normalisation with dropout and weight decay. With the ZFNet architecture, they had to use a batch size of 64 due to hardware limitations. they trained for 20 epochs and dropped the learning rate by an order of magnitude twice from the initial value of 0.01. they found this produced better results than using an adaptive learning rate-based algorithm.
+
+RESULTS
+
+They ended up with a global accuracy of 73% on the validation set. Some tasks were easy (type: 95%), other tasks such as category were much harder. The multi-task accuracy can be boosted above 80% with the inclusion of textual features and they recently boosted colour accuracy over 90% by fixing their labels.
+
+COMMENTS
+
+Lysts Image processing technology is very impressive. If these tasks can be automated without the need for any human interaction, then it is possible to apply this technology to many more parts of the company.
+

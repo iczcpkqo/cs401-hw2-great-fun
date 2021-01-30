@@ -1,0 +1,8 @@
+SOURCE https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+AGENT Google duplex	 	 	
+GOAL To create a machine that could have a real world conversation and use it as a personal assistant that can speak to humans using colloquial language and nuances over the phone. 	
+DATA The machine was trained on an enormous amount of phone call conversation data. Different tasks were trained separately and phone calls doing different specific tasks were used when training the machine for the task in question.
+METHODS It uses a recurrent neural network built with TensorFlow Extended
+RESULTS While google duplex is not in the mainstream currently, it has been shown in demonstrations to be amazing at understanding the human language over phone calls through showcases of it booking appointments, tables for restaurants and much more. Overall google duplex produced a machine that can emulate human phone interaction almost seamlessly.
+COMMENTS Google duplex comes with many benefits, saving people and businesses time. It also is very helpful for those with disabilities. The only issues people may have with google duplex is that it can possible takeover phone jobs as the technology improves it does not need training or a wage.
+ 	

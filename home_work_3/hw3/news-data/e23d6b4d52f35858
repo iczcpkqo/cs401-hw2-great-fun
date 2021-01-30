@@ -1,0 +1,30 @@
+SOURCE
+
+https://deepmind.com/research/alphago/ https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf
+
+AGENT
+
+Google DeepMind
+
+GOAL
+
+Create an AI able to beat the best human go players.
+
+DATA
+
+Thousands of game of Go were used as an input.
+
+METHODS
+
+Several methods were used : Monte Carlo Tree Search, a "policy" neural network to select the next move and a "value" neural network to evaluate the position.
+On top of that, supervised and reinforcement learning were used to train the "policy" neural network, whereas, reinforcement learning was used to train the "value network".
+
+RESULTS
+
+AlphaGo beat a former European champion of Go, Mr Fan Hui by a flawless score of 5-0 in October 2015.
+In March 2016, he defeated Lee Sedol, the world champion of Go, considered as one of the best players in the history, by the score of 4-1, in front of 200 millions people.
+
+COMMENTS
+
+After the victory of DeepBlue against Kasparov in 1997, many people trusted that the human Go players would stay untouched for at least the next thirty years because of the wider possibility of moves you can have in Go compered to Chess.
+However, AlphaGo against the odds, managed to win against the Go world champion in only 2016. Go players appreciated some AlphaGo moves as totally new and it allowed them to introduce new moves and new strategies based on AlphaGo reasoning.  

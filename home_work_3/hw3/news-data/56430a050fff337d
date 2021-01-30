@@ -1,0 +1,29 @@
+SOURCE
+
+https://www.wired.co.uk/article/how-do-netflixs-algorithms-work-machine-learning-helps-to-predict-what-viewers-will-like
+
+AGENT
+
+Netflix
+
+GOAL
+
+Optimize the recommendation system through machine learning algorithms.
+
+DATA
+
+While Netflix has over 100 million users worldwide, if the multiple user profiles for each subscriber are counted, this brings the total to around 250 million active profiles. "What we see from those profiles is the following kinds of data – what people watch, what they watch after, what they watch before, what they watched a year ago, what they’ve watched recently and what time of day". This information is then combined with more data aimed at understanding the content of shows. The latter is gathered from dozens of in-house and freelance staff who watch every minute or every show on Netflix and tag it. The tags they use range massively from how cerebral the piece is, to whether it has an ensemble cast, is set in space, or stars a corrupt cop. The data that Netflix feeds into its algorithms can be broken down into two types – implicit and explicit. “Explicit data is what you literally tell us: you give a thumbs up to The Crown, we get it,” Yellin explains. "Implicit data is really behavioural data. You didn't explicitly tell us 'I liked Unbreakable Kimmy Schmidt', you just binged on it and watched it in two nights, so we understand that behaviourally. Most useful data is implicit."
+
+METHODS
+
+To illustrate how all this data comes together to help viewers find new things to watch, Netflix looked at the patterns that led viewers towards characters like the Marvel heroes that make up The Defenders. They take all these tags and the user behaviour data and then they use very sophisticated machine learning algorithms that figure out what’s most important. The data scientists need to figure out how much to weigh certain behaviours of users in the algorithms.
+
+RESULTS
+
+While there were some more obvious trends, such as series with strong female leads – like Orange is the New Black – steering characters towards Jessica Jones, there were also a few less obvious sources, like the smart humour of Master of None and the psychological thrill of Making A Murderer driving people towards the wise-ass private detective. Meanwhile, "shows that expose the dark side of society" were shown to drive viewers to Luke Cage, such as the question of guilt in Amanda Knox and the examination of technology in Black Mirror.
+
+COMMENTS
+
+As a user of Netflix, I sometimes get overwhelmed by the amount of options for television and movies. It is good that they are trying to optimise our time spent on the app by recommending us movies based on our preferences. I think that should take more variables into account when running their algorithms, such as whether we completed a show or not.
+
+

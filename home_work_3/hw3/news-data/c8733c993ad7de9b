@@ -1,0 +1,27 @@
+SOURCE
+
+ CIO From IDG (https://www.cio.com/article/3225445/artificial-intelligence/machine-learning-success-stories.html)
+
+AGENT
+
+ Sunil Bondalapati
+
+GOAL
+
+ To predict the machine failure in the real time and replace them before the system fails to work.
+
+DATA
+
+ In real time, the data will be taken from the machine such as supply chain data, IoT data, power capacity and other work flow data.
+
+METHODS
+
+ With the help of all the above data, the system will start understanding how the system is used and about its wear and tear. Based the study of the data in the real time the system predicts the when that machine fails to work. 
+
+RESULTS
+
+ This system predicts the Machine failure in the before hand with lots of accuracy and the Spark-based software transforms the data and provides insights for IT and business staff alike
+
+COMMENTS
+
+ This product is very useful for the companies where there are lot machines involved. According to me they should consider the external factors too in this prediction (like voltage fluctuation, maintenance of the machine etc.)

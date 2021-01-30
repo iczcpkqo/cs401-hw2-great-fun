@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.learnopencv.com/understanding-alexnet/
+
+AGENT
+
+Alex Krizhevsky
+
+GOAL
+
+The objetive of this project was to make a software that can recognise objects analysing pictures.
+
+DATA
+
+It uses a pictures database, with the pictures stored following a CNN architecture.
+
+METHODS
+
+This system uses mainly Convolutional neural networks (CNN). It consist of 5 convolutional layers, followed by 3 fully connected layers.
+
+RESULTS
+
+The result of this project is a software that recognises very efficiently what objet is shown in a picture.
+
+COMMENTS
+
+This software can be use with some programmes as Matlab, to have a efficient computer vision system.

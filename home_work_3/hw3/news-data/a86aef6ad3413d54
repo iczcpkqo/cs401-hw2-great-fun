@@ -1,0 +1,27 @@
+SOURCE
+
+https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+
+AGENT
+
+Spotify
+
+GOAL
+
+Create "discover weekly" : a playlist of songs based on the preferences of the user.
+
+DATA
+
+The favorite musics of the user (corresponding at the song saved) and also the songs of the people related to the user (friend, music in common...).
+
+METHODS
+
+Collaborative filtering, depending of what you like and what other people like you have listened, you will be advised some songs.
+Natural language processing to get songs close to one you listen to. 
+Raw audio model to compare the spectrum of the songs the user likes to suggest him new songs only based on the spectrum, it helps the inclusion in new songs in this playlist.
+
+RESULTS
+
+The user can take advantage of this playlist to discover new songs based on his taste.
+
+COMMENTS

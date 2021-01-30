@@ -1,0 +1,28 @@
+SOURCE
+
+https://sites.google.com/view/streetlearn https://arxiv.org/pdf/1804.00168.pdf
+
+AGENT
+
+Google DeepMind's StreetLearn
+
+GOAL
+
+Be able to navigate from point A to point B in a city without knowing the map.
+
+DATA
+
+Google Street View images from cities of New York, Paris and London so far. As an input, the target location (latitude/longitude) is given.
+
+METHODS
+
+Location from real-world imagery, as the human eye, the program can detect vegetation, architectures and landmarks to help find its path.
+Deep reinforcement learning for navigation and deep reinforcement learning for planning and mapping.
+
+RESULTS
+
+The agent can navigate through the different areas of city (example : Harlem and Central Park for New York) and adapt itself to other areas (Lower Manhattan in New York for example).
+
+COMMENTS
+
+The idea is to extend this method to entirely new cities.

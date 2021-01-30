@@ -1,0 +1,29 @@
+SOURCE
+
+https://www.lebigdata.fr/mit-machine-learning-fake-news http://ide.mit.edu/sites/default/files/publications/2017%20IDE%20Research%20Brief%20False%20News.pdf
+
+AGENT
+
+MIT
+
+GOAL
+
+Create a tool that is able to detect fake news and the political influence of a given article.
+
+DATA
+
+Data from https://mediabiasfactcheck.com/, that allows given a source to judge its precision and its political side.
+
+METHODS
+
+From the data, the tool can evaluate a source on 5 criteria : semantic and textual check, Wikipedia website from the source, structure of the URL, Twitter account and web traffic.
+The analyze of an article includes around 150 criteria. In the end, the tool can evaluate the precision as low, medium or high and the political side as far left, left, left-center, center, center-right, right, far right.
+
+RESULTS
+
+From 150 article from a source of information, the MIT tool is able to get the good precision 65% of the time and 70% of the time for the political side.
+Even if this result will improve over time, the main idea there is to help the human work to verify sources.
+
+COMMENTS
+
+The final goal is to create an application to allow the user to be exposed to different political sides.

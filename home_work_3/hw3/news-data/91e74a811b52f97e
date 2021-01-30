@@ -1,0 +1,7 @@
+SOURCE https://deepmind.com/blog/capture-the-flag/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+AGENT Google Deepmind
+GOAL To create a machine that could play at the same or to a higher ability compared to humans in a game of capture the flag in Quake 3
+DATA The data for this was taken in real time as the agents had to work out from scratch how to play the game and how to act.
+METHODS It used a single reinforcement signal, and since capture the flag is a team game, each player or “bot” had its own reward signal combined with some optimisation which focuses the agents internal reward system to goals for winning a match.
+RESULTS Google ran a tournament to see how their bots would perform this included having 40 human players. The teams were mixes of bots and human players. Overall, the bots ended up having a higher winrate than the humans, and human players rated them to be more collaborative.
+COMMENTS This machine demonstrates how bots can interact with humans in a 3d environment. From other bots such as the Dota 2 OpenAI bot, many professional players may adopt strategies or playstyles that the bots display. These strategies tend to be abstract, but functional. It would be interesting to see how such abstract but efficient ideas could be used for other applications such as real world problems.

@@ -1,0 +1,14 @@
+SOURCE
+Classifying online Job Advertisements through Machine Learning
+https://www.sciencedirect.com/science/article/pii/S0167739X17321830
+AGENT
+Roberto Boselli, Mirko Cesarini, Fabio Mercorio, Mario Mezzanzanica
+GOAL
+Reduce the time-to-market compared to classical survey-based analyses, overcoming linguistic boundaries, and representing the resulting knowledge over several sectors at different levels of granularity.
+DATA
+Web job vacancy document containing a title and full job description.
+METHODS
+Used machine learning techniques such as Support Vector Machines, SVM Linear, SVM RBF Kernel, Random Forests, Artificial Neural Networks.
+RESULTS
+Successfully analysed different Web job vacancies into their own classification, which are, Geographical, Area, Skill, Firm, and Occupation.
+COMMENTS

@@ -1,0 +1,23 @@
+Source:
+	Condliffe, J., (2017, Jan. 31st)., An AI Poker Bot Has Whipped the Pros, https://www.technologyreview.com/s/603544/an-ai-poker-bot-has-whipped-the-pros/
+
+Brown, H. (2017, Jan. 20th), How does Libratus (AI bot) work?, https://www.quora.com/How-does-Libratus-AI-bot-work
+
+
+
+Agent:
+	The bot that played was named Libratus
+
+Goal:
+	Libratus challenged the top professional poker players to a series of Texas holdem poker matches. The overall goal was to defeat the champion poker players in poker.
+
+Data:
+	The data Libratus used was from self-played games, using a Monte Carlo Counterfactual Regret Minimization (MCCFR). 
+
+Method:
+	From the data of it’s own games, Libratus develops it’s own strategy guide depending on the  situations it finds itself in. This end game solving was developed by Professor Thomas Sandholm and his phd student Noam Brown.
+
+Results:
+	The result was that Libratus took home ‘$1.8 million in chips’, while it’s compitition all left with a deficite.
+
+I just wonder what else their method for developing a dynamic strategy could be used towards. Poker being an inperfect game of information, Libratus’ strategy shows that machines can think stratigicly.

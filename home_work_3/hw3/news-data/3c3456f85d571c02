@@ -1,0 +1,31 @@
+SOURCE
+
+The Guardian
+https://www.theguardian.com/technology/2017/dec/07/alphazero-google-deepmind-ai-beats-champion-program-teaching-itself-to-play-four-hours
+
+AGENT
+
+SamuelGibbs
+
+GOAL
+
+To start with develop a program that can learn to play any game and then subsequently learn how to beat any other program or human
+
+DATA
+
+The learning algrothim needs only the rules on how the game is played and can then teach itself the rules
+
+METHODS
+
+Alpha go uses many diffrent method to work this includes using Monte Carlo Tree Search and various other methods.
+It calcuilates based on previous games what the best course of action could be for a given move and can determine from this information what to do next
+It also uses machine elarning to predict what move an aponent would make based on previous moves. It can then learn sure fire stragies to defeating most players and machines
+
+RESULTS
+
+Alpha Zero within 24hours  taught itself how to playe chess but aslo was able to beat the current worlds best chess playing program. 
+It has also been generalised so that it can do this with most other games
+
+COMMENTS
+
+AlphaZero and DeepMind are to really intersting applications for Machine learning are the primary use cases of it so far

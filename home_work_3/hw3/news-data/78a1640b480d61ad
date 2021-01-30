@@ -1,0 +1,27 @@
+SOURCE
+
+https://deepmind.com/blog/neural-scene-representation-and-rendering/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+
+AGENT
+
+Dr Ali Eslami, Research scientist at DeepMind
+
+GOAL
+
+To form a framework that lets machines perceive their surroundings by training only on data obtained by themselves as they move around scenes and provide a 3D render.
+
+DATA
+
+The researchers trained their network on a collection of procedurally-generated environments in a simulated 3D world, containing multilpe objects in random positions, colours, shapes and textures, with randomised light sources and heavy occlusion.
+
+METHODS
+
+The GQN model is composed of two parts: a representation network and a generation network. The representation network takes the agent's observations as its input and produces a representation (a vector) which describes the underlying scene. The generation network then predicts (‘imagines’) the scene from a previously unobserved viewpoint. The representation network does not know which viewpoints the generation network will be asked to predict, so it must find an efficient way of describing the true layout of the scene as accurately as possible. It does this by capturing the most important elements, such as object positions, colours and the room layout, in a concise distributed representation. During training, the generator learns about typical objects, features, relationships and regularities in the environment. This shared set of ‘concepts’ enables the representation network to describe the scene in a highly compressed, abstract manner, leaving it to the generation network to fill in the details where necessary.
+
+RESULTS
+
+The GQN’s generation network can ‘imagine’ previously unobserved scenes from new viewpoints with remarkable precision. When given a scene representation and new camera viewpoints, it generates sharp images without any prior specification of the laws of perspective, occlusion, or lighting. It can also learn to count, localise and classify objects without any object-level labels. It can represent, measure and reduce uncertainty. It is capable of accounting for uncertainty in its beliefs about a scene even when its contents are not fully visible, and it can combine multiple partial views of a scene to form a coherent whole.
+ 
+COMMENTS
+
+

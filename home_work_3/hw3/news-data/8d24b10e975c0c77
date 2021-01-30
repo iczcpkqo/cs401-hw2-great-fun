@@ -1,0 +1,28 @@
+SOURCE
+
+http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/
+
+AGENT
+
+This comuter system was developed by IBM.
+
+GOAL
+
+The objetive of this project was to a chess computer powerful enough to win against the chess world champion Gary Kasparov.
+
+DATA
+
+This computer could calculate up to 200 million possible positions per second.
+
+METHODS
+
+The machine worked mainly using brute-force computation.
+
+RESULTS
+
+It was the first computer beating a world champion chess player, but it only won one of six matches.
+
+COMMENTS
+
+Some time after that, IBM created DeeperBlue, that finally beat Kasparov in a 6 matches game, but this machine was accused 
+of cheating by Kasparov.

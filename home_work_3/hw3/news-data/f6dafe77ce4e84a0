@@ -1,0 +1,28 @@
+SOURCE
+
+ CIO From IDG (https://www.cio.com/article/3225445/artificial-intelligence/machine-learning-success-stories.html)
+
+AGENT
+
+ Cynthia Stoddard (Adobe Systems)
+
+GOAL
+
+ To Create software that eliminates or mitigate those events which triggers the system failures. 
+
+DATA
+ 
+ The logs and other necessary data which will be sent from the Adobe softwares to the backend systems.
+
+
+METHODS
+
+ The software will send the data to algorithm which will then start learning about the behaviour of the Adobe software and predicts the failure. “If you know you have to fix something and you know how to fix it, then you can automate it,” says Cynthia Stoddard
+
+RESULTS
+
+ They calling this as HAAS " Healing as a Service", has reduced fix times from 30 minutes performed manually by humans to 1 minute. She estimates it has saved Adobe 330 hours of time remediating issues in the past several months
+
+COMMENTS
+
+ This HaaS is very helpful and necessary tool, this save lots of time and reduce the software failures.

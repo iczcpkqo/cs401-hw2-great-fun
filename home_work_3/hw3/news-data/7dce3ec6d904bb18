@@ -1,0 +1,30 @@
+SOURCE 
+
+https://arxiv.org/abs/1805.07470
+
+AGENT 
+
+Stephen McAleer
+Forest Agostinelli
+Alexander Shmakov
+Pierre Baldi
+
+GOAL 
+
+Solving a Rubik's Cube without human teaching or intervention.
+
+DATA 
+
+No pre-existing data was used, the algorithm learned the game by itself.
+
+METHODS 
+
+They used Autodidactic Iteration, a method of using positive reinforcement learning to teach an AI to solve a Rubik’s cube without previous knowledge of the puzzle.
+
+RESULTS 
+
+With enough training, the AI was able to solve in a median solve length (amount of moves) within 30 moves, which closely emulates what a human can do. This was above the expectations of the 
+
+COMMENTS 
+
+It is very interesting that the evolutionary algorithm can have the potential to learn how to solve a puzzle such as a Rubik’s Cube without any previous knowledge of the puzzle and how to solve it.

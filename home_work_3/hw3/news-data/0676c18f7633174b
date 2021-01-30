@@ -1,0 +1,30 @@
+SOURCE
+
+https://keiwan.itch.io/evolution
+
+AGENT
+
+Keiwan Donyagard. He is an independent software developer.
+
+GOAL
+
+The main goal of this project is to make easy to understand how machine learning works, using an amusing simulator, where
+the user can use joints, bones and muscles to make a creature that evolves for generations.
+
+DATA
+
+The only data required is about the figure that the user designs to start the simulation, and the data obtained from
+previous generations.
+
+METHODS
+
+To improve how the figure moves, the simulator uses genetic algorithm and neural networks.
+
+RESULTS
+
+The output of this project is a very easy to use simulator that can be installed both in a mobile phone as in a computer.
+
+COMMENTS
+
+While it is true that the simulator doesn't achieve an important goal, it shows in a very simple way how machine learning
+works. Thanks to that, the simulator is a good didactic tool to use with beginners.

@@ -1,0 +1,27 @@
+﻿SOURCE
+
+Technology Review "Deep Learning Machine Teaches Itself Chess in 72 Hours, Plays at International Master Level" https://www.technologyreview.com/s/541276/deep-learning-machine-teaches-itself-chess-in-72-hours-plays-at-international-master/
+
+AGENT
+
+Matthew Lai, Imperial College London
+
+GOAL
+
+Have a machine teach itself how to play and win games of chess.
+
+DATA
+
+175 million randomly generated valid chess positions.
+
+METHODS
+
+The neural network analyses the current game in three different ways: 1) It looks at the overall board, what pieces both players have and whose turn it is to move. 2)Looks at the individual pieces and their locations. 3) Each of the possible moves all of the pieces could take in both attacking and defending.
+
+RESULTS
+
+The project was a success, matching the top chess engines in the world (which have been built and fine tuned after years of data and experience) after 72 hours of learning and achieving a score of 9700 out of 15000. Unfortunately, the neural network isn't as fast as the other engines in coming to a decision, taking 10 times longer to decide a move.
+
+COMMENTS
+
+This was interesting as it showed how quickly a system supported by machine learning can catch up to or even exceed systems built with years of data and experience. I imagine over time as hardware and technology increases the neural network would be able to make faster decisions and neural networks will be the way to go to for being the best at chess.

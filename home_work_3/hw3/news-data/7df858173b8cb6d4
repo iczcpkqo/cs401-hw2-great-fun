@@ -1,0 +1,27 @@
+SOURCE
+
+https://eng.uber.com/michelangelo/
+
+AGENT
+
+UberEATS, a company that delivers food to customers.
+
+GOAL
+
+Use their internal machine learning platform to help provide improved services for their customers.
+
+DATA
+
+Data is stored at Uber data centers that provide data from each delivery such as the current time, as well as data from past deliveries such as how long it took a certain resturant to prepare a meal in the past.
+
+METHODS
+
+UberEATS uses this data to predict the time required to place the order, the order to be prepared, and finally the order to be delivered. They use a gradient boosted decision tree regression models to accomplish this task. This process is ran at every stage of the delivery.
+
+RESULTS
+
+This Uber machine learning system, they call Michelangelo, is used in many parts of their business as a reproducible way to train the available data and turn it into useful information. In this case, UberEATS is able to predict the complicated problem of estimating delivery time.  
+
+COMMENTS
+
+It was surprising to me that a company like Uber uses the amount of resources they do just to store data.

@@ -1,0 +1,27 @@
+SOURCE 
+
+https://blog.openai.com/openai-five/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+
+AGENT 
+
+OpenAI
+
+GOAL 
+
+Teaching and training an AI to play a game (Dota 2) to beat or be competitive against a human team of various skill levels and professional levels.
+
+DATA 
+
+Data was collected from gameplay of real humans at various levels, and co-currently using Microsoft Azure and GCP resources.
+
+METHODS 
+
+They used Proximal Policy Optimization, a proprietary method of learning which is able to be scaled to very large heights (10,000’s of CPU cores). This allowed the system to process extremely large amounts of information in terms of game footage (which allowed the AI to process 100’s of years of footage per day)
+
+RESULTS 
+
+With enough training, the AI was able to begin beating bot players using traditional Heuristics, and using enough time was able to start beating human players
+
+COMMENTS 
+
+While the technology is now here perse, it still takes a long time to develop an AI smart enough to be able to play a game against humans. It also takes a lot of computer power to train the AI to do something as abstract as play a game, which will mean that AI in games will still be largely based on Heuristics.

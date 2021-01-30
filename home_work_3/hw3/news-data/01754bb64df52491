@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.wired.co.uk/article/how-do-netflixs-algorithms-work-machine-learning-helps-to-predict-what-viewers-will-like
+
+AGENT
+
+Netflix
+
+GOAL
+
+Give customers shows that they like but would not have chosen themselves.
+
+DATA
+
+Explicit data given by customers when they like or dislike a show. Implicit data gathered from customers viewing habits such as what show they watched and what time of day. 
+
+METHODS
+
+Use machine learning algorithms to place customers into multiple of the thousands of categories of other customers. These algorithms do this by knowing how to figure out the most important parts of the data given about a customer.
+
+RESULTS
+
+Netflix is able to give predictions on what customers would enjoy watching based on complex connections between shows and rely less on suggesting specific genres of shows.
+
+COMMENTS
+
+This media article focuses more on the outcomes of the algorithms and less about the technicalities of them.

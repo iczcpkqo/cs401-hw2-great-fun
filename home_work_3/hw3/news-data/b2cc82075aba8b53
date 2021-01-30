@@ -1,0 +1,27 @@
+SOURCE
+
+ CIO From IDG (https://www.cio.com/article/3225445/artificial-intelligence/machine-learning-success-stories.html)
+
+AGENT
+
+ Rich Hillebrecht
+
+GOAL
+
+ To apply machine learning techniques to process more data than we normally use. They use historical data to predict the future. 
+
+DATA
+
+ They combine order management and other ERP data with historical data about weather and other factors to find a pattern.
+
+METHODS
+
+ They will use the ML to tune automatically with the above and predict the future. "We want to be more predictive in terms of downstream risk in terms of capacity and our ability to fill orders to customers," Hillebrecht says.
+
+RESULTS
+
+ As the system designed they predicts the future data more precise.
+
+COMMENTS
+
+ The method they use might be well known and most used method but the datasets they use is much bigger so their solution and prediction will be better than others.

@@ -1,0 +1,13 @@
+Source: https://towardsdatascience.com/an-examination-of-international-cuisines-through-unsupervised-learning-93c8b56d1ea0
+
+Agent: Ben Strum
+
+Goal: Attempt to learn about the relationships and connections of different cuisines and foods from around the world
+
+Data: approx 12,500 recipes from 25 different cuisine types all gotten from Yummly.
+
+Method: Used a number of preprocessing NPL techniques, a number of unsupervised learning algorithms.
+
+Results: A number of interesting graphs indicating relationships between several different cuisines groups. Other graphs showing primary and secondey ingredients liklihood depending on where on the graph a groups centroid was.
+
+Comments: I found this experiment quite interesting. Many cuisines that were replated seemed quite obvios, for example Irish and English, but others came as a surprise such and Swedish and Irish. Or Japanese and Hawaiian. It would be interesting to follow this up with cultural and historical study to illustrate why these groups have similar components.

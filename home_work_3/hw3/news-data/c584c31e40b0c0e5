@@ -1,0 +1,27 @@
+SOURCE
+
+https://engineeringblog.yelp.com/2015/10/how-we-use-deep-learning-to-classify-business-photos-at-yelp.html
+
+AGENT
+
+Yelp
+
+GOAL
+
+Classify pictures of restaurants into five categories. These categories are food, drink, inside, outside, and menu.
+
+DATA
+
+Pictures with obvious captions, pictures that users have given certain attributes to, and specific pictures taken just for more data.
+
+METHODS
+
+Used a convolution neural network based on an open source framework called Caffe. They wrapped this convolution neural network using the container platform Docker.
+
+RESULTS
+
+Precision of 94 percent and recall of 70 percent on a data set of 2500 pictures. Yelp is able to use this for cover photo diversification and tabbed photo browsing.
+
+COMMENTS
+
+Users are able to report pictures if they are placed in the wrong category, allowing the algorithms to improve over time. Also, I was surprised to see a company like Yelp using open source material.

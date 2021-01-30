@@ -1,0 +1,29 @@
+SOURCE
+
+https://arxiv.org/pdf/1805.07470.pdf
+
+AGENT
+
+Stephen McAleer, Forest Agostinelli, Alexander Shmakov and Pierre Baldi
+
+GOAL
+
+To come up with an algorithm to evaluate the turns of a Rubik's Cube and to solve it with the minimal amount of moves 100% of the time using a concept called Autodidactic Iteration.
+
+DATA
+
+The researchers trained their model using ADI which is an iterative supervised learning procedure which trains a deep neural network f?(s) with parameters ? which takes an input state s and outputs a value and policy pair (v, p). The policy output p is a vector containing the move probabilities for each of the 12 possible moves from that state.
+
+METHODS
+
+Autodidactic iteration in basic terms solves the cube by starting with the finished cube and working backwards to find a configuration that is similar to the proposed move. This process is not perfect, but deep learning helps the system figure out which moves are generally better than others. Having been trained, the network then uses a standard search tree to hunt for suggested moves for each configuration.
+
+RESULTS
+
+As a baseline, they compared it to previously known solvers, Kociemba and Korf. Kociemba will always solve any cube given to
+it, and it runs very quickly. However, because of its general-purpose nature, it often finds a longer solution compared to the other solvers. Korf’s algorithm will always find the optimal solution from any given starting state; but, since it is a heuristic tree search, it will often have to explore many different states and it will take a long time to compute a solution. Both DeepCube and Kociemba solved all 640 cubes within one hour. Kociemba solved each cube in under a second, while DeepCube had a median solve time of 10 minutes. The systematic approach of Kociemba explains its low spread of solution lengths with an interquartile range of only 3. Although DeepCube has a much higher variance in solution length, it was able to match or beat Kociemba in 55% of cases.
+
+
+COMMENTS
+
+

@@ -1,0 +1,36 @@
+SOURCE
+
+www.TechRepublic.com
+https://www.techrepublic.com/article/google-to-release-deepminds-streetlearn-for-teaching-machine-learning-agents-to-navigate-cities/
+
+AGENT
+
+Google Street Learn
+
+GOAL
+
+The goal of Google street learn is to navigate a around a city or area using only landmarks and points of intrest without GPS or refrence map
+
+DATA
+
+Using refrence images from google street view it crops 360-degree panoramic images each measuing 84x84 pixels.
+Each is a node in a larger netowrk of images 
+
+METHODS
+
+The system learns using deep reinforcement learning. a process that uses a series of multi-layered neural networks.
+Street Learn uses neural networks 
+
+One that handles image recognition, it feeds data to two Long Short Term Memory (LSTM) networks, allowing the system to consider contextual data.
+
+One of the LSTMs is a policy network that decides the action the agent should take next based on its current reward state,
+
+The other is a network that is tasked with memorising the local environment, 
+
+RESULTS
+
+The result was as expected. StreetLearn can learn to traverse most cities from photos without gps
+
+COMMENTS
+
+Street learn is a smart alternative to using gps but only in city or built up area as it would be uselss in areas without landmarks or points of interest 

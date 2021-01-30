@@ -1,0 +1,27 @@
+﻿SOURCE
+
+Symmetry Magazine "Machine learning proliferates in particle physics" https://www.symmetrymagazine.org/article/machine-learning-proliferates-in-particle-physics
+
+AGENT
+
+Large Hadron Collider
+
+GOAL
+
+Filter out irrelevant data and quickly what data needs to be looked at.
+
+DATA
+
+A million gigabytes of data every second before compression. After compression, the data for one hour is equivalent to Facebook's data collection in a year.
+
+METHODS
+
+Scan data in real time using "triggers". These triggers are a combination of software and hardware used to identify which data to keep in real time.
+
+RESULTS
+
+The neural networks have learned how to identify relevant data and analyse it by itself. As hardware and algorithms improved, so has the neural networks going from a few layers deep to thousands of layers deep.
+
+COMMENTS
+
+I found the final quote in the article to be very though provoking. It's an interesting idea, nowadays we use machine learning to come up with the answers to our questions, perhaps in a decade we'll use machine learning to come up with the questions we would never think of even asking. I also found it amazing that the neural network could not only manage so much data but could also analyse it and compare it to previous data.

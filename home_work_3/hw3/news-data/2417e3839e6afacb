@@ -1,0 +1,30 @@
+SOURCE
+
+https://www.techrepublic.com/article/ibm-watson-the-inside-story-of-how-the-jeopardy-winning-supercomputer-was-born-and-what-it-wants-to-do-next/
+
+AGENT
+
+IBM
+
+GOAL
+
+Beating Humans in Jeopardy. Using a combination of machine learning, natural language processing and information retrieval techniques.
+
+DATA
+
+The information that DeepQA would eventually be able to query for Jeopardy was 200 million pages of information, from a variety of sources. All the information had to be locally stored - Watson wasn't allowed to connect to the Internet during the quiz
+
+METHODS
+
+IBM developed DeepQA, a massively parallel software architecture that examined natural language content in both the clues set by Jeopardy and in Watson's own stored data, along with looking into the structured information it holds. The component-based system, built on a series of pluggable components for searching and weighting information, took about 20 researchers three years to reach a level where it could tackle a quiz show performance and come out looking better than its human opponents.
+
+First up, DeepQA works out what the question is asking, then works out some possible answers based on the information it has to hand, creating a thread for each. Every thread uses hundreds of algorithms to study the evidence, looking at factors including what the information says, what type of information it is, its reliability, and how likely it is to be relevant, then creating an individual weighting based on what Watson has previously learned about how likely they are to be right. It then generated a ranked list of answers, with evidence for each of its options.
+
+RESULTS
+
+IBM's Watson beats two human champions in a Jeopardy competition
+
+
+COMMENTS
+
+While Watson had the questions delivered in text rather than by listening to the quizmaster, he played the game like his human counterparts: puzzle over the question, buzz in, give the answer that's most likely to be right, tot up some prize money, maybe with the advancments there have been since it could react to the quizmaster's voice.

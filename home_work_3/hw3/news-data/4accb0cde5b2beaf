@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.business-standard.com/article/news-ians/new-machine-learning-system-may-help-debunk-fake-news-118100600512_1.html
+
+AGENT
+
+Massachusetts Institute of Technology (MIT) and Qatar Computing Research Institute (QCSI)
+
+GOAL
+
+Detect the likelihood that a given news outlet will publish "fake" (that is, unfactual) news, and within that, detect the political alignment of the assertions (if there is one).
+
+DATA
+
+Data from Media Bias/Fact Check (MBFC), a website with human fact-checkers who analyse the accuracy and biases of more than 2,000 news sites.
+
+METHODS
+
+Data was fed into an SVM programmed to classify news sites the same way as MBFC.
+
+RESULTS
+
+When given a new news outlet, the system was 65 per cent accurate at detecting whether it has a high, low or medium level of "factuality", and roughly 70 per cent accurate in detecting if it is left-leaning, right-leaning or moderate. As to be expected, "fake news" outlets were found to be more likely to use language that is hyperbolic, subjective and emotional.
+
+COMMENTS
+
+N/A.

@@ -1,0 +1,23 @@
+﻿SOURCE
+
+Analytics Vidhya "An Autonomous Car Learned how to Drive itself in 20 minutes using Reinforcement Learning" https://www.analyticsvidhya.com/blog/2018/07/autonomous-car-learnt-drive-itself-20-minutes-using-reinforcement-learning/ https://arxiv.org/pdf/1807.00412.pdf
+
+AGENT
+
+Wayve
+
+GOAL
+
+Have a autonomous car teach itself how to drive.
+
+METHODS
+
+Reinforcement Learning. A 4-layered neural network. When the car does an illegal move or starts to move off the track, a safety driver edges it back on and the network learns it's mistake.
+
+RESULTS
+
+The car learned how to drive around the track in 20 minutes after approximately 10 trials.
+
+COMMENTS
+
+While it is interesting to have a car teach itself to drive, I think that this car only learned how to drive a single track in the conditions that were present during the trial. The car may not know how to drive in night time or in rainy weather on the track, let alone know how to drive a different track.

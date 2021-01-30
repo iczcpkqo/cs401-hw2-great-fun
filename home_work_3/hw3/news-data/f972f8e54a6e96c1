@@ -1,0 +1,7 @@
+SOURCE		https://arxiv.org/abs/1805.01934?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+AGENT		Chen Chen, Qifeng Chen, Jia Xu, Vladlen Koltun
+GOAL		Imaging in low light
+DATA		A dataset of raw short-exposure low-light images, with corresponding long-exposure reference images
+METHODS		Using the presented dataset, they develop a pipeline for processing low-light images, based on end-to-end training of a fully-convolutional network. The network operates directly on raw sensor data and replaces much of the traditional image processing pipeline, which tends to perform poorly on such data.
+RESULTS		https://www.youtube.com/watch?v=qWKUFK7MWvg&feature=youtu.be
+COMMENTS	

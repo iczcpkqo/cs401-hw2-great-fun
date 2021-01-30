@@ -1,0 +1,27 @@
+SOURCE
+
+https://ai.googleblog.com/2017/05/updating-google-maps-with-deep-learning.html
+
+AGENT
+
+Google
+
+GOAL
+
+To use their deep learning algorithms to help the app extract street names and house numbers from photos taken by Street View cars and increase the accuracy of search results.
+
+DATA
+
+In 2014, Google’s Ground Truth team published a state-of-the-art method for reading street numbers on the Street View House Numbers (SVHN) dataset, Google created and released French Street Name Signs (FSNS), a large training dataset of more than 1 million street names. The FSNS dataset was a multi-year effort designed to allow anyone to improve their OCR models on a challenging and real use case. FSNS dataset is much larger and more challenging than SVHN in that accurate recognition of street signs may require combining information from many different images.
+
+METHODS
+
+With this training set, Google intern Zbigniew Wojna spent the summer of 2016 developing a deep learning model architecture to automatically label new Street View imagery. One of the interesting strengths of their new model is that it can normalize the text to be consistent with their naming conventions, as well as ignore extraneous text, directly from the data itself. Applying large models across their more than 80 billion Street View images requires a lot of computing power. Therefore, the Ground Truth team was the first user of Google's TPUs, which were publicly announced earlier this year, to drastically reduce the computational cost of the inferences of our pipeline.
+
+RESULTS
+
+While this model is accurate, it did show a sequence error rate of 15.8%. However, after analysing failure cases, they found that 48% of them were due to ground truth errors, highlighting the fact that this model is on par with the label quality.
+
+COMMENTS
+
+This technology is so important because so many people rely on Google maps for navigation. Google must come up with new machine learning methods to keep Google Maps up to date with the always changing landscape of cities.

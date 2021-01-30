@@ -1,0 +1,29 @@
+SOURCE
+
+https://www.sqlchick.com/entries/2015/8/22/what-is-the-cortana-analytics-suite
+https://www.youtube.com/watch?v=iMCD3WR1Qa0
+https://centricconsulting.com/blog/microsoft-cortana-intelligence-suite-transforms-data-analytics/
+
+AGENT
+
+Seayoung Rhee (Technical Product Manager for Cortana Intelligence at Microsoft)
+
+GOAL
+
+Use machine learning techniques within natural language processing and voice UI industry to reduce the error rate of speech recognition. 
+
+DATA
+
+In IoT scenarios, data can come in from various streams such as business apps, custom apps, sensors and devices. Data then gets processed within the cortana intelligence suite where further analysis is carried out. 
+
+METHODS
+
+The Cortana Intelligence suite is divided into components for information management, big data stores, machine learning and analytics, visualisation, and intelligence. The primary elements of the machine learning component consisted of Azure machine learning, Azure HDInsight, Azure Data Lake Analytics, and Azure Stream Analytics.
+
+RESULTS
+
+TechCrunch spoke of Cortana as being a small part of the solution to the broad platform – Cortana Intelligence Suite. The suite can be used to propel a business forward in machine learning. One big feature is that it can easily integrate with advanced apps. It now allows customers to implement Hadoop processing and real-time event processing to help influence business factors. 
+
+COMMENTS
+
+
